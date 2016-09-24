@@ -6,7 +6,11 @@ source /home/ubuntu/run.sh
 #Remove log directories
 if [ $3 == "tez" ]; then
   hadoop fs -rm -r /tmp/tez-history/*
-  rm -rf /mnt/logs/apps/application_*
+  #Remove previous dot files
+  ssh ubuntu@vm1 'find /mnt/logs -name "*.dot" | xargs rm -rf {}'
+  ssh ubuntu@vm2 'find /mnt/logs -name "*.dot" | xargs rm -rf {}'
+  ssh ubuntu@vm3 'find /mnt/logs -name "*.dot" | xargs rm -rf {}'
+  ssh ubuntu@vm4 'find /mnt/logs -name "*.dot" | xargs rm -rf {}'
 fi
 
 if [ $3 == "mr" ]; then
