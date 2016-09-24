@@ -1,0 +1,132 @@
+VM1 sda-sda
+Previous Sectors Read = 18300914
+Current Sectors Read = 18460826
+Previous Sectors Written = 9246664
+Current Sectors Written = 9253904
+Sectors Read = 159912
+Sectors Written = 7240
+--------------------
+VM1 sdb-sdb
+Previous Sectors Read = 56282
+Current Sectors Read = 56650
+Previous Sectors Written = 427212216
+Current Sectors Written = 427215880
+Sectors Read = 368
+Sectors Written = 3664
+--------------------
+VM1 sdc-sdc
+Previous Sectors Read = 490817370
+Current Sectors Read = 494474338
+Previous Sectors Written = 807459976
+Current Sectors Written = 807478800
+Sectors Read = 3656968
+Sectors Written = 18824
+--------------------
+VM2 sda-sda
+Previous Sectors Read = 7507322
+Current Sectors Read = 7530154
+Previous Sectors Written = 1697232
+Current Sectors Written = 1702688
+Sectors Read = 22832
+Sectors Written = 5456
+--------------------
+VM2 sdb-sdb
+Previous Sectors Read = 131674
+Current Sectors Read = 132602
+Previous Sectors Written = 426890408
+Current Sectors Written = 426896192
+Sectors Read = 928
+Sectors Written = 5784
+--------------------
+VM2 sdc-sdc
+Previous Sectors Read = 570119794
+Current Sectors Read = 574546578
+Previous Sectors Written = 775054528
+Current Sectors Written = 775083640
+Sectors Read = 4426784
+Sectors Written = 29112
+--------------------
+VM3 sda-sda
+Previous Sectors Read = 7452298
+Current Sectors Read = 7473682
+Previous Sectors Written = 1722200
+Current Sectors Written = 1725368
+Sectors Read = 21384
+Sectors Written = 3168
+--------------------
+VM3 sdc-sdc
+Previous Sectors Read = 488479698
+Current Sectors Read = 492140018
+Previous Sectors Written = 780604888
+Current Sectors Written = 780617112
+Sectors Read = 3660320
+Sectors Written = 12224
+--------------------
+VM3 sdb-sdb
+Previous Sectors Read = 130450
+Current Sectors Read = 130506
+Previous Sectors Written = 426900824
+Current Sectors Written = 426903552
+Sectors Read = 56
+Sectors Written = 2728
+--------------------
+VM4 sda-sda
+Previous Sectors Read = 7438778
+Current Sectors Read = 7459914
+Previous Sectors Written = 1724672
+Current Sectors Written = 1726632
+Sectors Read = 21136
+Sectors Written = 1960
+--------------------
+VM4 sdb-sdb
+Previous Sectors Read = 128090
+Current Sectors Read = 128690
+Previous Sectors Written = 426871496
+Current Sectors Written = 426873864
+Sectors Read = 600
+Sectors Written = 2368
+--------------------
+VM4 sdc-sdc
+Previous Sectors Read = 484389826
+Current Sectors Read = 488046642
+Previous Sectors Written = 866041368
+Current Sectors Written = 866051720
+Sectors Read = 3656816
+Sectors Written = 10352
+--------------------
+VM1
+Previous Packets Received = 48875007771
+Current Packets Received = 48910151070
+Previous Packets Transmitted = 56526701119
+Current Packets Transmitted = 56688400325
+Packets received = 35143299
+Packets Transmitted = 161699206
+--------------------
+VM2
+Previous Packets Received = 42875204883
+Current Packets Received = 43215167535
+Previous Packets Transmitted = 70902685210
+Current Packets Transmitted = 71002557020
+Packets received = 339962652
+Packets Transmitted = 99871810
+--------------------
+VM3
+Previous Packets Received = 58897389474
+Current Packets Received = 58933265920
+Previous Packets Transmitted = 41487667992
+Current Packets Transmitted = 41493064614
+Packets received = 35876446
+Packets Transmitted = 5396622
+--------------------
+VM4
+Previous Packets Received = 65118606419
+Current Packets Received = 65151922502
+Previous Packets Transmitted = 38489054316
+Current Packets Transmitted = 38648642177
+Packets received = 33316083
+Packets Transmitted = 159587861
+--------------------
+Total Sectors Read = 8001589248
+Total Sectors Written = 52674560
+Total Packets Received = 444298480
+Total Packets Transmitted = 426555499

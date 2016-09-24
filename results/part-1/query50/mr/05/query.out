@@ -1,0 +1,339 @@
+
+Logging initialized using configuration in jar:file:/home/ubuntu/software/hive-1.2.1/lib/hive-common-1.2.1.jar!/hive-log4j.properties
+Hive history file=/tmp/ubuntu/hive_job_log_63294d66-e182-4413-83ea-bc73784b3d31_515909209.txt
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+OK
+Time taken: 0.948 seconds
+Query ID = ubuntu_20160924192145_44441a84-e755-42ff-a0d3-1eacda59eac6
+Total jobs = 10
+Stage-1 is selected by condition resolver.
+Launching Job 1 out of 10
+Number of reduce tasks not specified. Estimated from input data size: 86
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1474660851143_0350, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0350/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0350
+Hadoop job information for Stage-1: number of mappers: 82; number of reducers: 86
+2016-09-24 19:21:57,311 Stage-1 map = 0%,  reduce = 0%
+2016-09-24 19:22:10,029 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 63.63 sec
+2016-09-24 19:22:13,160 Stage-1 map = 2%,  reduce = 0%, Cumulative CPU 81.83 sec
+2016-09-24 19:22:15,258 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 90.4 sec
+2016-09-24 19:22:16,299 Stage-1 map = 7%,  reduce = 0%, Cumulative CPU 100.4 sec
+2016-09-24 19:22:21,498 Stage-1 map = 9%,  reduce = 0%, Cumulative CPU 130.41 sec
+2016-09-24 19:22:22,549 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 138.07 sec
+2016-09-24 19:22:24,659 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 164.24 sec
+2016-09-24 19:22:25,713 Stage-1 map = 15%,  reduce = 0%, Cumulative CPU 176.87 sec
+2016-09-24 19:22:26,783 Stage-1 map = 17%,  reduce = 0%, Cumulative CPU 186.12 sec
+2016-09-24 19:22:28,894 Stage-1 map = 18%,  reduce = 0%, Cumulative CPU 206.95 sec
+2016-09-24 19:22:29,953 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 210.01 sec
+2016-09-24 19:22:32,050 Stage-1 map = 20%,  reduce = 0%, Cumulative CPU 214.41 sec
+2016-09-24 19:22:40,421 Stage-1 map = 22%,  reduce = 0%, Cumulative CPU 289.34 sec
+2016-09-24 19:22:43,524 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 312.62 sec
+2016-09-24 19:22:44,599 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 316.17 sec
+2016-09-24 19:22:46,669 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 329.63 sec
+2016-09-24 19:22:47,708 Stage-1 map = 27%,  reduce = 0%, Cumulative CPU 334.73 sec
+2016-09-24 19:22:49,782 Stage-1 map = 29%,  reduce = 0%, Cumulative CPU 354.07 sec
+2016-09-24 19:22:50,818 Stage-1 map = 30%,  reduce = 0%, Cumulative CPU 360.73 sec
+2016-09-24 19:22:51,857 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 373.69 sec
+2016-09-24 19:22:52,893 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 385.85 sec
+2016-09-24 19:22:53,942 Stage-1 map = 35%,  reduce = 0%, Cumulative CPU 391.77 sec
+2016-09-24 19:22:54,985 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 401.15 sec
+2016-09-24 19:22:56,024 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 411.72 sec
+2016-09-24 19:22:59,193 Stage-1 map = 39%,  reduce = 0%, Cumulative CPU 424.74 sec
+2016-09-24 19:23:03,372 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 451.23 sec
+2016-09-24 19:23:06,495 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 477.65 sec
+2016-09-24 19:23:08,578 Stage-1 map = 42%,  reduce = 0%, Cumulative CPU 489.62 sec
+2016-09-24 19:23:12,745 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 526.71 sec
+2016-09-24 19:23:13,784 Stage-1 map = 44%,  reduce = 0%, Cumulative CPU 533.66 sec
+2016-09-24 19:23:14,821 Stage-1 map = 47%,  reduce = 0%, Cumulative CPU 547.24 sec
+2016-09-24 19:23:15,884 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 553.41 sec
+2016-09-24 19:23:16,925 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 566.46 sec
+2016-09-24 19:23:19,018 Stage-1 map = 52%,  reduce = 0%, Cumulative CPU 581.46 sec
+2016-09-24 19:23:20,063 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 588.83 sec
+2016-09-24 19:23:21,098 Stage-1 map = 54%,  reduce = 0%, Cumulative CPU 599.94 sec
+2016-09-24 19:23:22,176 Stage-1 map = 55%,  reduce = 0%, Cumulative CPU 607.53 sec
+2016-09-24 19:23:23,238 Stage-1 map = 56%,  reduce = 0%, Cumulative CPU 608.96 sec
+2016-09-24 19:23:24,309 Stage-1 map = 57%,  reduce = 0%, Cumulative CPU 619.95 sec
+2016-09-24 19:23:27,434 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 643.21 sec
+2016-09-24 19:23:30,580 Stage-1 map = 60%,  reduce = 0%, Cumulative CPU 666.53 sec
+2016-09-24 19:23:35,756 Stage-1 map = 61%,  reduce = 0%, Cumulative CPU 702.06 sec
+2016-09-24 19:23:36,793 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 711.24 sec
+2016-09-24 19:23:38,879 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 729.49 sec
+2016-09-24 19:23:40,964 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 753.5 sec
+2016-09-24 19:23:43,060 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 771.61 sec
+2016-09-24 19:23:46,188 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 798.75 sec
+2016-09-24 19:23:47,224 Stage-1 map = 74%,  reduce = 0%, Cumulative CPU 810.29 sec
+2016-09-24 19:23:49,315 Stage-1 map = 76%,  reduce = 0%, Cumulative CPU 824.94 sec
+2016-09-24 19:23:51,389 Stage-1 map = 78%,  reduce = 0%, Cumulative CPU 843.68 sec
+2016-09-24 19:23:54,493 Stage-1 map = 79%,  reduce = 0%, Cumulative CPU 858.15 sec
+2016-09-24 19:23:58,637 Stage-1 map = 80%,  reduce = 0%, Cumulative CPU 885.1 sec
+2016-09-24 19:24:00,714 Stage-1 map = 81%,  reduce = 0%, Cumulative CPU 899.43 sec
+2016-09-24 19:24:02,802 Stage-1 map = 82%,  reduce = 0%, Cumulative CPU 920.18 sec
+2016-09-24 19:24:03,846 Stage-1 map = 83%,  reduce = 0%, Cumulative CPU 927.71 sec
+2016-09-24 19:24:05,917 Stage-1 map = 84%,  reduce = 0%, Cumulative CPU 941.94 sec
+2016-09-24 19:24:07,984 Stage-1 map = 85%,  reduce = 0%, Cumulative CPU 950.57 sec
+2016-09-24 19:24:09,020 Stage-1 map = 86%,  reduce = 0%, Cumulative CPU 962.75 sec
+2016-09-24 19:24:10,064 Stage-1 map = 87%,  reduce = 0%, Cumulative CPU 965.02 sec
+2016-09-24 19:24:11,097 Stage-1 map = 88%,  reduce = 0%, Cumulative CPU 975.29 sec
+2016-09-24 19:24:12,137 Stage-1 map = 89%,  reduce = 0%, Cumulative CPU 983.95 sec
+2016-09-24 19:24:14,201 Stage-1 map = 90%,  reduce = 0%, Cumulative CPU 992.1 sec
+2016-09-24 19:24:15,232 Stage-1 map = 91%,  reduce = 0%, Cumulative CPU 1001.14 sec
+2016-09-24 19:24:17,299 Stage-1 map = 92%,  reduce = 0%, Cumulative CPU 1004.12 sec
+2016-09-24 19:24:18,336 Stage-1 map = 93%,  reduce = 0%, Cumulative CPU 1007.64 sec
+2016-09-24 19:24:21,429 Stage-1 map = 94%,  reduce = 0%, Cumulative CPU 1016.57 sec
+2016-09-24 19:24:23,488 Stage-1 map = 95%,  reduce = 0%, Cumulative CPU 1020.16 sec
+2016-09-24 19:24:29,670 Stage-1 map = 96%,  reduce = 0%, Cumulative CPU 1034.51 sec
+2016-09-24 19:24:31,739 Stage-1 map = 97%,  reduce = 0%, Cumulative CPU 1043.81 sec
+2016-09-24 19:24:32,768 Stage-1 map = 98%,  reduce = 0%, Cumulative CPU 1048.99 sec
+2016-09-24 19:24:34,829 Stage-1 map = 99%,  reduce = 0%, Cumulative CPU 1058.23 sec
+2016-09-24 19:24:35,862 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1061.62 sec
+2016-09-24 19:24:46,311 Stage-1 map = 100%,  reduce = 2%, Cumulative CPU 1073.64 sec
+2016-09-24 19:24:47,390 Stage-1 map = 100%,  reduce = 4%, Cumulative CPU 1087.49 sec
+2016-09-24 19:24:48,441 Stage-1 map = 100%,  reduce = 9%, Cumulative CPU 1113.32 sec
+2016-09-24 19:24:49,476 Stage-1 map = 100%,  reduce = 11%, Cumulative CPU 1128.82 sec
+2016-09-24 19:24:50,532 Stage-1 map = 100%,  reduce = 14%, Cumulative CPU 1143.72 sec
+2016-09-24 19:24:51,585 Stage-1 map = 100%,  reduce = 19%, Cumulative CPU 1172.24 sec
+2016-09-24 19:24:57,840 Stage-1 map = 100%,  reduce = 21%, Cumulative CPU 1184.4 sec
+2016-09-24 19:24:58,878 Stage-1 map = 100%,  reduce = 24%, Cumulative CPU 1204.18 sec
+2016-09-24 19:25:00,960 Stage-1 map = 100%,  reduce = 29%, Cumulative CPU 1230.88 sec
+2016-09-24 19:25:01,997 Stage-1 map = 100%,  reduce = 30%, Cumulative CPU 1241.56 sec
+2016-09-24 19:25:03,036 Stage-1 map = 100%,  reduce = 36%, Cumulative CPU 1274.64 sec
+2016-09-24 19:25:04,099 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 1281.63 sec
+2016-09-24 19:25:09,324 Stage-1 map = 100%,  reduce = 39%, Cumulative CPU 1293.09 sec
+2016-09-24 19:25:10,361 Stage-1 map = 100%,  reduce = 42%, Cumulative CPU 1312.18 sec
+2016-09-24 19:25:11,401 Stage-1 map = 100%,  reduce = 44%, Cumulative CPU 1321.19 sec
+2016-09-24 19:25:12,437 Stage-1 map = 100%,  reduce = 46%, Cumulative CPU 1335.34 sec
+2016-09-24 19:25:13,494 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 1355.6 sec
+2016-09-24 19:25:14,537 Stage-1 map = 100%,  reduce = 53%, Cumulative CPU 1376.83 sec
+2016-09-24 19:25:15,594 Stage-1 map = 100%,  reduce = 55%, Cumulative CPU 1384.64 sec
+2016-09-24 19:25:16,634 Stage-1 map = 100%,  reduce = 56%, Cumulative CPU 1391.52 sec
+2016-09-24 19:25:20,813 Stage-1 map = 100%,  reduce = 57%, Cumulative CPU 1397.77 sec
+2016-09-24 19:25:21,861 Stage-1 map = 100%,  reduce = 59%, Cumulative CPU 1410.17 sec
+2016-09-24 19:25:22,898 Stage-1 map = 100%,  reduce = 61%, Cumulative CPU 1424.77 sec
+2016-09-24 19:25:23,935 Stage-1 map = 100%,  reduce = 64%, Cumulative CPU 1438.9 sec
+2016-09-24 19:25:24,969 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 1459.0 sec
+2016-09-24 19:25:26,001 Stage-1 map = 100%,  reduce = 71%, Cumulative CPU 1480.93 sec
+2016-09-24 19:25:27,048 Stage-1 map = 100%,  reduce = 72%, Cumulative CPU 1488.13 sec
+2016-09-24 19:25:28,093 Stage-1 map = 100%,  reduce = 73%, Cumulative CPU 1493.93 sec
+2016-09-24 19:25:29,153 Stage-1 map = 100%,  reduce = 74%, Cumulative CPU 1501.84 sec
+2016-09-24 19:25:33,328 Stage-1 map = 100%,  reduce = 78%, Cumulative CPU 1521.36 sec
+2016-09-24 19:25:34,365 Stage-1 map = 100%,  reduce = 79%, Cumulative CPU 1528.63 sec
+2016-09-24 19:25:35,412 Stage-1 map = 100%,  reduce = 81%, Cumulative CPU 1541.63 sec
+2016-09-24 19:25:36,447 Stage-1 map = 100%,  reduce = 85%, Cumulative CPU 1562.32 sec
+2016-09-24 19:25:37,490 Stage-1 map = 100%,  reduce = 87%, Cumulative CPU 1575.39 sec
+2016-09-24 19:25:38,533 Stage-1 map = 100%,  reduce = 90%, Cumulative CPU 1595.27 sec
+2016-09-24 19:25:39,571 Stage-1 map = 100%,  reduce = 91%, Cumulative CPU 1597.36 sec
+2016-09-24 19:25:40,604 Stage-1 map = 100%,  reduce = 93%, Cumulative CPU 1610.3 sec
+2016-09-24 19:25:43,690 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 1623.93 sec
+2016-09-24 19:25:44,732 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 1630.7 sec
+2016-09-24 19:25:45,761 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 1637.76 sec
+2016-09-24 19:25:46,791 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 1651.24 sec
+MapReduce Total cumulative CPU time: 27 minutes 31 seconds 240 msec
+Ended Job = job_1474660851143_0350
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20160924192145_44441a84-e755-42ff-a0d3-1eacda59eac6.log
+2016-09-24 19:25:50	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-09-24 19:25:51	Dump the side-table for tag: 1 with group count: 144 into file: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10017/HashTable-Stage-17/MapJoin-mapfile41--.hashtable
+2016-09-24 19:25:51	Uploaded 1 File to: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10017/HashTable-Stage-17/MapJoin-mapfile41--.hashtable (13095 bytes)
+2016-09-24 19:25:51	End of local task; Time Taken: 1.332 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 10
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1474660851143_0351, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0351/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0351
+Hadoop job information for Stage-17: number of mappers: 4; number of reducers: 0
+2016-09-24 19:25:57,798 Stage-17 map = 0%,  reduce = 0%
+2016-09-24 19:26:10,195 Stage-17 map = 15%,  reduce = 0%, Cumulative CPU 23.0 sec
+2016-09-24 19:26:13,313 Stage-17 map = 34%,  reduce = 0%, Cumulative CPU 34.27 sec
+2016-09-24 19:26:16,458 Stage-17 map = 54%,  reduce = 0%, Cumulative CPU 45.71 sec
+2016-09-24 19:26:19,568 Stage-17 map = 73%,  reduce = 0%, Cumulative CPU 57.17 sec
+2016-09-24 19:26:22,658 Stage-17 map = 93%,  reduce = 0%, Cumulative CPU 68.25 sec
+2016-09-24 19:26:23,687 Stage-17 map = 96%,  reduce = 0%, Cumulative CPU 68.98 sec
+2016-09-24 19:26:25,736 Stage-17 map = 100%,  reduce = 0%, Cumulative CPU 71.42 sec
+MapReduce Total cumulative CPU time: 1 minutes 11 seconds 420 msec
+Ended Job = job_1474660851143_0351
+Stage-23 is selected by condition resolver.
+Stage-24 is filtered out by condition resolver.
+Stage-3 is filtered out by condition resolver.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20160924192145_44441a84-e755-42ff-a0d3-1eacda59eac6.log
+2016-09-24 19:26:29	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-09-24 19:26:31	Dump the side-table for tag: 1 with group count: 73049 into file: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10013/HashTable-Stage-14/MapJoin-mapfile21--.hashtable
+2016-09-24 19:26:32	Uploaded 1 File to: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10013/HashTable-Stage-14/MapJoin-mapfile21--.hashtable (1541779 bytes)
+2016-09-24 19:26:32	End of local task; Time Taken: 2.683 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 4 out of 10
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1474660851143_0352, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0352/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0352
+Hadoop job information for Stage-14: number of mappers: 5; number of reducers: 0
+2016-09-24 19:26:37,802 Stage-14 map = 0%,  reduce = 0%
+2016-09-24 19:26:50,147 Stage-14 map = 26%,  reduce = 0%, Cumulative CPU 29.87 sec
+2016-09-24 19:26:59,415 Stage-14 map = 54%,  reduce = 0%, Cumulative CPU 68.79 sec
+2016-09-24 19:27:02,496 Stage-14 map = 63%,  reduce = 0%, Cumulative CPU 81.4 sec
+2016-09-24 19:27:06,601 Stage-14 map = 73%,  reduce = 0%, Cumulative CPU 95.33 sec
+2016-09-24 19:27:08,659 Stage-14 map = 100%,  reduce = 0%, Cumulative CPU 104.88 sec
+MapReduce Total cumulative CPU time: 1 minutes 44 seconds 880 msec
+Ended Job = job_1474660851143_0352
+Stage-21 is selected by condition resolver.
+Stage-22 is filtered out by condition resolver.
+Stage-4 is filtered out by condition resolver.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20160924192145_44441a84-e755-42ff-a0d3-1eacda59eac6.log
+2016-09-24 19:27:13	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-09-24 19:27:14	Dump the side-table for tag: 1 with group count: 30 into file: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10009/HashTable-Stage-11/MapJoin-mapfile01--.hashtable
+2016-09-24 19:27:14	Uploaded 1 File to: file:/tmp/ubuntu/63294d66-e182-4413-83ea-bc73784b3d31/hive_2016-09-24_19-21-45_223_2337113711394803017-1/-local-10009/HashTable-Stage-11/MapJoin-mapfile01--.hashtable (893 bytes)
+2016-09-24 19:27:14	End of local task; Time Taken: 1.31 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 6 out of 10
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1474660851143_0353, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0353/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0353
+Hadoop job information for Stage-11: number of mappers: 5; number of reducers: 0
+2016-09-24 19:27:20,223 Stage-11 map = 0%,  reduce = 0%
+2016-09-24 19:27:30,517 Stage-11 map = 10%,  reduce = 0%, Cumulative CPU 7.31 sec
+2016-09-24 19:27:31,550 Stage-11 map = 20%,  reduce = 0%, Cumulative CPU 8.18 sec
+2016-09-24 19:27:33,606 Stage-11 map = 54%,  reduce = 0%, Cumulative CPU 30.97 sec
+2016-09-24 19:27:35,663 Stage-11 map = 64%,  reduce = 0%, Cumulative CPU 32.99 sec
+2016-09-24 19:27:36,695 Stage-11 map = 91%,  reduce = 0%, Cumulative CPU 39.61 sec
+2016-09-24 19:27:37,724 Stage-11 map = 100%,  reduce = 0%, Cumulative CPU 40.52 sec
+MapReduce Total cumulative CPU time: 40 seconds 520 msec
+Ended Job = job_1474660851143_0353
+Launching Job 7 out of 10
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1474660851143_0354, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0354/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0354
+Hadoop job information for Stage-5: number of mappers: 2; number of reducers: 1
+2016-09-24 19:27:43,544 Stage-5 map = 0%,  reduce = 0%
+2016-09-24 19:27:49,701 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.42 sec
+2016-09-24 19:27:55,849 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 3.66 sec
+MapReduce Total cumulative CPU time: 3 seconds 660 msec
+Ended Job = job_1474660851143_0354
+Launching Job 8 out of 10
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1474660851143_0355, Tracking URL = http://vm1:8088/proxy/application_1474660851143_0355/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1474660851143_0355
+Hadoop job information for Stage-6: number of mappers: 1; number of reducers: 1
+2016-09-24 19:28:01,743 Stage-6 map = 0%,  reduce = 0%
+2016-09-24 19:28:06,862 Stage-6 map = 100%,  reduce = 0%, Cumulative CPU 1.07 sec
+2016-09-24 19:28:13,005 Stage-6 map = 100%,  reduce = 100%, Cumulative CPU 2.66 sec
+MapReduce Total cumulative CPU time: 2 seconds 660 msec
+Ended Job = job_1474660851143_0355
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 82  Reduce: 86   Cumulative CPU: 1651.24 sec   HDFS Read: 21844875476 HDFS Write: 490208950 SUCCESS
+Stage-Stage-17: Map: 4   Cumulative CPU: 71.42 sec   HDFS Read: 490266936 HDFS Write: 1194927443 SUCCESS
+Stage-Stage-14: Map: 5   Cumulative CPU: 104.88 sec   HDFS Read: 1194990815 HDFS Write: 1234824467 SUCCESS
+Stage-Stage-11: Map: 5   Cumulative CPU: 40.52 sec   HDFS Read: 1234937481 HDFS Write: 33638 SUCCESS
+Stage-Stage-5: Map: 2  Reduce: 1   Cumulative CPU: 3.66 sec   HDFS Read: 52654 HDFS Write: 7303 SUCCESS
+Stage-Stage-6: Map: 1  Reduce: 1   Cumulative CPU: 2.66 sec   HDFS Read: 18618 HDFS Write: 6427 SUCCESS
+Total MapReduce CPU Time Spent: 31 minutes 14 seconds 380 msec
+OK
+able	1	128	15th 	RD	Suite T	Oak Grove	Walker County	AL	38370	497	359	228	253	436
+able	1	228	Cherry 	Avenue	Suite G	Oak Grove	Walker County	AL	38370	446	359	251	216	436
+able	1	255	Sycamore 	Dr.	Suite 410	Riverside	Ziebach County	SD	59231	434	343	202	205	409
+able	1	300	Forest 	Lane	Suite 230	Fairview	Walker County	AL	35709	447	355	209	200	452
+able	1	302	Walnut Madison	Wy	Suite T	Oak Grove	Ziebach County	SD	58370	495	358	219	228	442
+able	1	441	11th 	ST	Suite H	Pleasant Hill	Williamson County	TN	33604	482	351	221	219	424
+able	1	479	Park First	Lane	Suite 20	Riverside	Walker County	AL	39231	435	348	204	206	420
+able	1	543	West Elm	Ln	Suite A	Oak Grove	Walker County	AL	38370	425	339	219	204	432
+able	1	557	Elevnth 7th	Pkwy	Suite L	Oak Grove	Walker County	AL	38370	476	375	225	237	450
+able	1	722	Railroad Spring	Ct.	Suite M	Pleasant Hill	Ziebach County	SD	53604	451	334	216	204	441
+anti	1	192	5th Highland	Blvd	Suite N	Riverside	Williamson County	TN	39231	460	338	208	198	456
+anti	1	321	11th 	Parkway	Suite G	Five Points	Walker County	AL	36098	459	372	239	211	449
+anti	1	735	Walnut 	Blvd	Suite 360	Midway	Walker County	AL	31904	466	361	215	206	440
+anti	1	897	Ash Oak	Circle	Suite T	Mount Pleasant	Williamson County	TN	31933	477	348	230	213	395
+ation	1	19	Fourth 	Boulevard	Suite N	Mount Pleasant	Walker County	AL	31933	489	365	220	190	450
+ation	1	213	8th 	Road	Suite 490	Oak Grove	Williamson County	TN	38370	433	371	202	239	453
+ation	1	421	12th Center	Avenue	Suite J	Oak Grove	Williamson County	TN	38370	461	353	245	189	456
+ation	1	8	Cedar Maple	ST	Suite 320	Mount Pleasant	Williamson County	TN	31933	419	379	203	226	468
+ation	1	811	Lee 	Circle	Suite T	Midway	Ziebach County	SD	51904	487	344	220	210	455
+bar	1	147	Highland 	Ln	Suite 270	Midway	Ziebach County	SD	51904	479	370	233	226	483
+bar	1	174	Sycamore 	Ln	Suite O	Riverside	Walker County	AL	39231	456	414	219	235	446
+bar	1	175	4th 	Court	Suite C	Riverside	Williamson County	TN	39231	462	344	215	243	471
+bar	1	200	Lake 	RD	Suite 320	Pleasant Hill	Ziebach County	SD	53604	444	357	216	215	408
+bar	1	365	Railroad Smith	Boulevard	Suite O	Riverside	Williamson County	TN	39231	466	351	206	233	440
+bar	1	543	Twelfth 	Avenue	Suite L	Midway	Ziebach County	SD	51904	407	346	230	202	462
+bar	1	582	Oak Washington	Drive	Suite S	Oak Grove	Walker County	AL	38370	470	375	214	209	412
+bar	1	818	1st Elm	Road	Suite 220	Fairview	Walker County	AL	35709	474	338	235	223	451
+bar	1	829	Jefferson 	Lane	Suite 110	Mount Pleasant	Williamson County	TN	31933	380	358	208	228	438
+bar	1	903	Sixth 	Court	Suite Q	Mount Pleasant	Ziebach County	SD	51933	464	368	204	223	461
+cally	NULL	688		Avenue	Suite 50			TN		432	332	197	216	435
+cally	1	353	Third View	Drive	Suite 380	Oak Grove	Williamson County	TN	38370	473	351	219	197	411
+cally	1	392	15th 	Dr.	Suite W	Midway	Walker County	AL	31904	472	382	198	225	418
+cally	1	409	4th 15th	Drive	Suite Q	Mount Pleasant	Walker County	AL	31933	448	388	210	238	467
+cally	1	496	3rd 	Ct.	Suite E	Mount Pleasant	Williamson County	TN	31933	466	371	206	226	433
+cally	1	588	View Mill	Court	Suite 160	Mount Pleasant	Ziebach County	SD	51933	480	370	220	218	425
+cally	1	606	Lake Lincoln	Boulevard	Suite S	Riverside	Williamson County	TN	39231	439	359	216	215	432
+cally	1	70	7th 	RD	Suite 160	Five Points	Williamson County	TN	36098	444	318	202	228	458
+cally	1	956	View Sunset	Parkway	Suite 250	Riverside	Williamson County	TN	39231	450	340	236	234	443
+eing	1	226	12th 	Lane	Suite D	Five Points	Walker County	AL	36098	432	392	215	246	417
+eing	1	293	Center Main	Lane	Suite 200	Fairview	Ziebach County	SD	55709	453	364	196	213	416
+eing	1	303	Fifteenth 	RD	Suite 340	Pleasant Hill	Williamson County	TN	33604	482	365	206	232	465
+eing	1	317	Poplar 9th	Pkwy	Suite P	Oak Grove	Walker County	AL	38370	421	396	242	216	452
+eing	1	317	Ridge Green	Lane	Suite A	Five Points	Williamson County	TN	36098	446	350	237	223	449
+eing	1	408	Spring Locust	Wy	Suite 340	Five Points	Ziebach County	SD	56098	450	375	209	228	437
+eing	1	618	Jefferson Lee	Pkwy	Suite W	Oak Grove	Ziebach County	SD	58370	465	360	208	227	470
+eing	1	656	Washington 	Dr.	Suite 50	Oak Grove	Williamson County	TN	38370	427	358	209	243	459
+eing	1	687	Ridge 	Blvd	Suite P	Pleasant Hill	Ziebach County	SD	53604	456	368	208	217	421
+ese	1	27	Lake 	Ln	Suite 260	Pleasant Hill	Williamson County	TN	33604	443	364	218	194	428
+ese	1	302	Spruce 	Court	Suite L	Fairview	Walker County	AL	35709	451	354	214	230	397
+ese	1	313	East 	Court	Suite 300	Five Points	Walker County	AL	36098	444	348	212	229	433
+ese	1	408	Washington 1st	Circle	Suite 390	Riverside	Ziebach County	SD	59231	457	343	225	229	448
+ese	1	462	1st Washington	Parkway	Suite 290	Oak Grove	Walker County	AL	38370	472	376	230	210	423
+ese	1	487	7th 	Street	Suite 0	Five Points	Williamson County	TN	36098	460	363	230	227	442
+ese	1	521	9th 	Ave	Suite Y	Fairview	Ziebach County	SD	55709	455	377	228	215	438
+ese	1	669	Locust Spring	Parkway	Suite E	Five Points	Walker County	AL	36098	430	355	227	258	452
+ese	1	924	West 	Drive	Suite 130	Fairview	Walker County	AL	35709	432	357	213	217	426
+ese	1	984	Oak 	Cir.	Suite D	Midway	Williamson County	TN	31904	486	362	224	230	436
+n st	1	240	Willow 	RD	Suite 280	Pleasant Hill	Walker County	AL	33604	433	371	249	209	420
+n st	1	49	Locust Lake	Way	Suite 90	Midway	Walker County	AL	31904	420	342	215	219	433
+n st	1	495	Valley 	Lane	Suite D	Midway	Williamson County	TN	31904	437	378	231	222	401
+n st	1	616	Cedar 	Street	Suite M	Pleasant Hill	Ziebach County	SD	53604	481	362	220	242	486
+n st	1	638	Cherry 	Dr.	Suite T	Mount Pleasant	Walker County	AL	31933	466	339	215	229	443
+ought	1	150	Maple Williams	Lane	Suite D	Fairview	Williamson County	TN	35709	458	391	195	220	446
+ought	1	602	Chestnut 5th	Boulevard	Suite C	Midway	Williamson County	TN	31904	477	364	202	260	443
+ought	1	75	2nd Oak	Pkwy	Suite C	Midway	Williamson County	TN	31904	418	335	179	200	476
+ought	1	767	Spring 	Wy	Suite 250	Midway	Ziebach County	SD	51904	436	348	232	212	467
+ought	1	934	Hill 	Circle	Suite 490	Fairview	Ziebach County	SD	55709	451	353	244	191	434
+pri	1	392	Jefferson 	Ln	Suite K	Five Points	Williamson County	TN	36098	441	353	210	235	443
+pri	1	728	Adams 	Way	Suite T	Oak Grove	Walker County	AL	38370	465	367	219	249	465
+pri	1	84	First 	Cir.	Suite 180	Midway	Ziebach County	SD	51904	439	356	247	223	501
+pri	1	872	Washington 	Pkwy	Suite 70	Riverside	Walker County	AL	39231	458	373	209	239	436
+pri	1	889	River Wilson	Avenue	Suite 210	Fairview	Walker County	AL	35709	440	357	209	246	439
+Time taken: 389.888 seconds, Fetched: 72 row(s)
+Query 50: Total Execution Time = 398 seconds
