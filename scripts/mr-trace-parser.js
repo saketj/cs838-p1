@@ -18,7 +18,7 @@ var getTaskData = function(task) {
 }
 var init = function() {
 	// Get content from file
-	var contents = fs.readFileSync("job-trace.json", 'utf8').split("} {");
+	var contents = fs.readFileSync(process.argv[2], 'utf8').split("} {");
 	if(contents.length > 1) {
 		contents[0] = contents[0] + "}";
 		for(var i = 1; i < contents.length - 1; i++) {
