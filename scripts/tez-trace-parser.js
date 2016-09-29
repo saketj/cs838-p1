@@ -55,7 +55,7 @@ var isMapTask = function(entity) {
 		if(counters[i].counterGroupName == 'HIVE') {
 			var hiveCounters = counters[i].counters;
 			for(var j = 0; j < hiveCounters.length; j++) {
-				console.log(hiveCounters[j].counterName);
+				//console.log(hiveCounters[j].counterName);
 				if(hiveCounters[j].counterName.startsWith('RECORDS_IN_Map_')) {
 					isMap3 = true;
 				}
@@ -84,7 +84,7 @@ var isMapTask = function(entity) {
 
 var init = function() {
 	// Get content from file
-	var contents = fs.readFileSync("tez-history.json", 'utf8').split("\n");
+	var contents = fs.readFileSync(process.argv[2], 'utf8').split("\n");
 	
 
 	for(var i = 0; i < contents.length-1; i++) {
