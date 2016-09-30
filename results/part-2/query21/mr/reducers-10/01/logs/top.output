@@ -1,0 +1,19 @@
+{
+  "name" : "<root>",
+  "children" : [ {
+    "name" : "default-rack",
+    "children" : [ {
+      "name" : "vm1",
+      "children" : null
+    }, {
+      "name" : "vm2",
+      "children" : null
+    }, {
+      "name" : "vm3",
+      "children" : null
+    }, {
+      "name" : "vm4",
+      "children" : null
+    } ]
+  } ]
+}
