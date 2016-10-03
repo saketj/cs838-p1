@@ -1,3 +1,15 @@
+Directory Structure
+|
+|-AnagramSorter
+	|
+	|-src/ - contains src java files
+	|
+	|-bin/ - contains compiled java classes
+|
+|-ac.jar - Runnable jar
+|
+|-partb-README.txt
+
 Dependency:
 1) Hadoop > 2.6.0
 2) Java(jdk1.7)
