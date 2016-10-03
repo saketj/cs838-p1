@@ -1,311 +1,295 @@
-Start: 1475383345
+Start: 1475388539
 
 Logging initialized using configuration in jar:file:/home/ubuntu/software/hive-1.2.1/lib/hive-common-1.2.1.jar!/hive-log4j.properties
-Hive history file=/tmp/ubuntu/hive_job_log_7c71c9ef-48c9-45d9-b811-a777b1dba8b0_1132702273.txt
+Hive history file=/tmp/ubuntu/hive_job_log_f5b2f8c7-0d0c-46c6-b9b1-351c6804540f_981568092.txt
 SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 OK
-Time taken: 0.912 seconds
-Query ID = ubuntu_20161002044239_c7d294cb-79df-4992-9004-61bc63474f39
-Total jobs = 1
-Launching Job 1 out of 1
-
-
-Status: Running (Executing on YARN cluster with App id application_1475341600217_0155)
-
-Map 1: -/-	Map 10: -/-	Map 11: -/-	Map 5: -/-	Map 6: -/-	Map 7: -/-	Map 8: -/-	Map 9: -/-	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: -/-	Map 10: 0/1	Map 11: 0/1	Map 5: 0/1	Map 6: -/-	Map 7: 0/1	Map 8: -/-	Map 9: 0/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0/50	Map 10: 0/1	Map 11: 0/1	Map 5: 0/1	Map 6: 0/35	Map 7: 0/1	Map 8: 0/39	Map 9: 0/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0/50	Map 10: 0/1	Map 11: 0/1	Map 5: 0(+1)/1	Map 6: 0/35	Map 7: 0(+1)/1	Map 8: 0/39	Map 9: 0/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0/50	Map 10: 0(+1)/1	Map 11: 0/1	Map 5: 0(+1)/1	Map 6: 0/35	Map 7: 0(+1)/1	Map 8: 0/39	Map 9: 0(+1)/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+3)/50	Map 10: 0(+1)/1	Map 11: 0(+1)/1	Map 5: 0(+1)/1	Map 6: 0/35	Map 7: 0(+1)/1	Map 8: 0/39	Map 9: 0(+1)/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+3)/50	Map 10: 0(+1)/1	Map 11: 0(+1)/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 0/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+7)/50	Map 10: 1/1	Map 11: 0(+1)/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+11)/50	Map 10: 1/1	Map 11: 0(+1)/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+13)/50	Map 10: 1/1	Map 11: 0(+1)/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+15)/50	Map 10: 1/1	Map 11: 0(+1)/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+16)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+16)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 0(+16)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 1(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 1(+16)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 2(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 3(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 4(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 5(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 6(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 6(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 6(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 7(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 8(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 9(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 9(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 10(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 11(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 12(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 14(+8)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 14(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 15(+8)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 15(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 15(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 16(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 16(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 16(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 16(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 16(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 18(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 19(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 20(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 21(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 21(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 21(+15)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 22(+14)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 24(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 24(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 25(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 26(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 26(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 27(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 27(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 27(+13)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 29(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 30(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 30(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 30(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 31(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 31(+12)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 32(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+1)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 34(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+2)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 34(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+2)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 35(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+2)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 35(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+2)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 35(+11)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 36(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 36(+10)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 37(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 38(+8)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 38(+8)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 38(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+3)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 38(+9)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 40(+7)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 41(+6)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 41(+7)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 41(+7)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 42(+6)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 43(+5)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 44(+4)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+4)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 44(+4)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+5)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 44(+5)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+5)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 44(+5)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 45(+4)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 46(+3)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 46(+3)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 46(+4)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 46(+4)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 47(+3)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+6)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 47(+3)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+7)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 48(+2)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+7)/35	Map 7: 1/1	Map 8: 0(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 48(+2)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 0(+7)/35	Map 7: 1/1	Map 8: 0(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 48(+2)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+6)/35	Map 7: 1/1	Map 8: 0(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 49(+1)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+6)/35	Map 7: 1/1	Map 8: 0(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 49(+1)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+6)/35	Map 7: 1/1	Map 8: 0(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 49(+1)/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+7)/35	Map 7: 1/1	Map 8: 0(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+7)/35	Map 7: 1/1	Map 8: 0(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 1(+7)/35	Map 7: 1/1	Map 8: 0(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 2(+6)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+5)/35	Map 7: 1/1	Map 8: 0(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+5)/35	Map 7: 1/1	Map 8: 1(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+5)/35	Map 7: 1/1	Map 8: 1(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+6)/35	Map 7: 1/1	Map 8: 1(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+6)/35	Map 7: 1/1	Map 8: 2(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+6)/35	Map 7: 1/1	Map 8: 3(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+7)/35	Map 7: 1/1	Map 8: 3(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 3(+8)/35	Map 7: 1/1	Map 8: 3(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 4(+7)/35	Map 7: 1/1	Map 8: 3(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 4(+7)/35	Map 7: 1/1	Map 8: 3(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 5(+6)/35	Map 7: 1/1	Map 8: 3(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 6(+5)/35	Map 7: 1/1	Map 8: 3(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 6(+5)/35	Map 7: 1/1	Map 8: 3(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 7(+4)/35	Map 7: 1/1	Map 8: 3(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 7(+4)/35	Map 7: 1/1	Map 8: 3(+12)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 7(+4)/35	Map 7: 1/1	Map 8: 4(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 7(+4)/35	Map 7: 1/1	Map 8: 5(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 7(+4)/35	Map 7: 1/1	Map 8: 6(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+3)/35	Map 7: 1/1	Map 8: 6(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+4)/35	Map 7: 1/1	Map 8: 6(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+4)/35	Map 7: 1/1	Map 8: 7(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+5)/35	Map 7: 1/1	Map 8: 7(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+6)/35	Map 7: 1/1	Map 8: 7(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+6)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+7)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+7)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+7)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 8(+7)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 7(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 7(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 7(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 7(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 8(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 9(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+6)/35	Map 7: 1/1	Map 8: 10(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+7)/35	Map 7: 1/1	Map 8: 10(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+8)/35	Map 7: 1/1	Map 8: 10(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+8)/35	Map 7: 1/1	Map 8: 10(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+8)/35	Map 7: 1/1	Map 8: 10(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+8)/35	Map 7: 1/1	Map 8: 10(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 9(+8)/35	Map 7: 1/1	Map 8: 11(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+7)/35	Map 7: 1/1	Map 8: 11(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+7)/35	Map 7: 1/1	Map 8: 11(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+8)/35	Map 7: 1/1	Map 8: 11(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+8)/35	Map 7: 1/1	Map 8: 11(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+8)/35	Map 7: 1/1	Map 8: 12(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+8)/35	Map 7: 1/1	Map 8: 13(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 10(+8)/35	Map 7: 1/1	Map 8: 13(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 11(+7)/35	Map 7: 1/1	Map 8: 13(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 11(+8)/35	Map 7: 1/1	Map 8: 13(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 11(+8)/35	Map 7: 1/1	Map 8: 14(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 12(+7)/35	Map 7: 1/1	Map 8: 14(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 12(+7)/35	Map 7: 1/1	Map 8: 14(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 13(+7)/35	Map 7: 1/1	Map 8: 14(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 13(+8)/35	Map 7: 1/1	Map 8: 14(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+7)/35	Map 7: 1/1	Map 8: 14(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+7)/35	Map 7: 1/1	Map 8: 15(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 15(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 15(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 15(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 15(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 16(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 17(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 17(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 17(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 14(+8)/35	Map 7: 1/1	Map 8: 17(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 15(+7)/35	Map 7: 1/1	Map 8: 17(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 15(+8)/35	Map 7: 1/1	Map 8: 17(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 15(+8)/35	Map 7: 1/1	Map 8: 18(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 16(+7)/35	Map 7: 1/1	Map 8: 18(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 16(+7)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 16(+8)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 17(+7)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+6)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+7)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+8)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+8)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+8)/35	Map 7: 1/1	Map 8: 18(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+8)/35	Map 7: 1/1	Map 8: 19(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 18(+8)/35	Map 7: 1/1	Map 8: 19(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 19(+7)/35	Map 7: 1/1	Map 8: 19(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 19(+7)/35	Map 7: 1/1	Map 8: 19(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 20(+6)/35	Map 7: 1/1	Map 8: 19(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 20(+6)/35	Map 7: 1/1	Map 8: 19(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 20(+6)/35	Map 7: 1/1	Map 8: 19(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 20(+6)/35	Map 7: 1/1	Map 8: 20(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 20(+6)/35	Map 7: 1/1	Map 8: 21(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 21(+5)/35	Map 7: 1/1	Map 8: 21(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 21(+5)/35	Map 7: 1/1	Map 8: 21(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 21(+6)/35	Map 7: 1/1	Map 8: 21(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+5)/35	Map 7: 1/1	Map 8: 21(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+6)/35	Map 7: 1/1	Map 8: 21(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+6)/35	Map 7: 1/1	Map 8: 22(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 22(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 23(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 23(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 24(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 22(+7)/35	Map 7: 1/1	Map 8: 25(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 23(+6)/35	Map 7: 1/1	Map 8: 25(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 23(+6)/35	Map 7: 1/1	Map 8: 25(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 23(+6)/35	Map 7: 1/1	Map 8: 25(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 25(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 25(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 25(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 25(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 25(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+6)/35	Map 7: 1/1	Map 8: 26(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 24(+7)/35	Map 7: 1/1	Map 8: 26(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 25(+6)/35	Map 7: 1/1	Map 8: 26(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+5)/35	Map 7: 1/1	Map 8: 26(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+5)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+6)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+6)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+6)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 26(+6)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+5)/35	Map 7: 1/1	Map 8: 26(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+5)/35	Map 7: 1/1	Map 8: 27(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+5)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+6)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+6)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 27(+6)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 28(+5)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+4)/35	Map 7: 1/1	Map 8: 27(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+4)/35	Map 7: 1/1	Map 8: 27(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+5)/35	Map 7: 1/1	Map 8: 27(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+5)/35	Map 7: 1/1	Map 8: 27(+11)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+5)/35	Map 7: 1/1	Map 8: 28(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+5)/35	Map 7: 1/1	Map 8: 29(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 29(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 29(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 29(+10)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 30(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 30(+9)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 29(+6)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 30(+5)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 31(+8)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 32(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 32(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 32(+7)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 33(+6)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 34(+5)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 35(+4)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 36(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 36(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 36(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 36(+3)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 31(+4)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 32(+3)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 32(+3)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 33(+2)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 33(+2)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 33(+2)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 34(+1)/35	Map 7: 1/1	Map 8: 37(+2)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 34(+1)/35	Map 7: 1/1	Map 8: 38(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 34(+1)/35	Map 7: 1/1	Map 8: 38(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 38(+1)/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0(+2)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0(+3)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0(+4)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0(+6)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 0(+7)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 2(+6)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 2(+7)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 4(+6)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 4(+8)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 5(+7)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 6(+7)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 8(+6)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 9(+5)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 10(+4)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 12(+2)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 13(+1)/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 14/14	Reducer 4: 0/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 14/14	Reducer 4: 0(+1)/1	
-Map 1: 50/50	Map 10: 1/1	Map 11: 1/1	Map 5: 1/1	Map 6: 35/35	Map 7: 1/1	Map 8: 39/39	Map 9: 1/1	Reducer 3: 14/14	Reducer 4: 1/1	
+Time taken: 1.142 seconds
+Query ID = ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5
+Total jobs = 11
+Stage-29 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+Stage-30 is selected by condition resolver.
+Stage-7 is filtered out by condition resolver.
+Stage-31 is selected by condition resolver.
+Stage-9 is filtered out by condition resolver.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5.log
+2016-10-02 06:09:14	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-10-02 06:09:15	Dump the side-table for tag: 1 with group count: 31 into file: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10016/HashTable-Stage-17/MapJoin-mapfile31--.hashtable
+2016-10-02 06:09:15	Uploaded 1 File to: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10016/HashTable-Stage-17/MapJoin-mapfile31--.hashtable (914 bytes)
+2016-10-02 06:09:15	End of local task; Time Taken: 1.649 sec.
+Execution completed successfully
+MapredLocal task succeeded
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5.log
+2016-10-02 06:09:19	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-10-02 06:09:20	Dump the side-table for tag: 1 with group count: 31 into file: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10018/HashTable-Stage-20/MapJoin-mapfile51--.hashtable
+2016-10-02 06:09:20	Uploaded 1 File to: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10018/HashTable-Stage-20/MapJoin-mapfile51--.hashtable (914 bytes)
+2016-10-02 06:09:20	End of local task; Time Taken: 1.525 sec.
+Execution completed successfully
+MapredLocal task succeeded
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5.log
+2016-10-02 06:09:24	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-10-02 06:09:25	Dump the side-table for tag: 1 with group count: 31 into file: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10020/HashTable-Stage-23/MapJoin-mapfile71--.hashtable
+2016-10-02 06:09:25	Uploaded 1 File to: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10020/HashTable-Stage-23/MapJoin-mapfile71--.hashtable (914 bytes)
+2016-10-02 06:09:25	End of local task; Time Taken: 1.331 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 4 out of 11
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1475388471800_0001, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0001/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0001
+Hadoop job information for Stage-17: number of mappers: 26; number of reducers: 0
+2016-10-02 06:09:35,992 Stage-17 map = 0%,  reduce = 0%
+2016-10-02 06:09:48,715 Stage-17 map = 1%,  reduce = 0%, Cumulative CPU 13.03 sec
+2016-10-02 06:09:49,752 Stage-17 map = 2%,  reduce = 0%, Cumulative CPU 34.76 sec
+2016-10-02 06:09:50,787 Stage-17 map = 3%,  reduce = 0%, Cumulative CPU 52.88 sec
+2016-10-02 06:09:51,843 Stage-17 map = 5%,  reduce = 0%, Cumulative CPU 74.04 sec
+2016-10-02 06:09:52,890 Stage-17 map = 7%,  reduce = 0%, Cumulative CPU 76.01 sec
+2016-10-02 06:09:53,933 Stage-17 map = 11%,  reduce = 0%, Cumulative CPU 80.17 sec
+2016-10-02 06:09:54,966 Stage-17 map = 20%,  reduce = 0%, Cumulative CPU 84.37 sec
+2016-10-02 06:09:55,998 Stage-17 map = 26%,  reduce = 0%, Cumulative CPU 86.86 sec
+2016-10-02 06:09:57,032 Stage-17 map = 33%,  reduce = 0%, Cumulative CPU 90.85 sec
+2016-10-02 06:09:58,075 Stage-17 map = 34%,  reduce = 0%, Cumulative CPU 94.43 sec
+2016-10-02 06:09:59,110 Stage-17 map = 40%,  reduce = 0%, Cumulative CPU 98.42 sec
+2016-10-02 06:10:00,146 Stage-17 map = 42%,  reduce = 0%, Cumulative CPU 100.63 sec
+2016-10-02 06:10:02,241 Stage-17 map = 44%,  reduce = 0%, Cumulative CPU 105.6 sec
+2016-10-02 06:10:03,290 Stage-17 map = 48%,  reduce = 0%, Cumulative CPU 107.6 sec
+2016-10-02 06:10:04,332 Stage-17 map = 58%,  reduce = 0%, Cumulative CPU 111.16 sec
+2016-10-02 06:10:05,408 Stage-17 map = 62%,  reduce = 0%, Cumulative CPU 112.11 sec
+2016-10-02 06:10:09,601 Stage-17 map = 63%,  reduce = 0%, Cumulative CPU 117.48 sec
+2016-10-02 06:10:11,666 Stage-17 map = 64%,  reduce = 0%, Cumulative CPU 127.18 sec
+2016-10-02 06:10:12,708 Stage-17 map = 70%,  reduce = 0%, Cumulative CPU 142.67 sec
+2016-10-02 06:10:13,738 Stage-17 map = 71%,  reduce = 0%, Cumulative CPU 151.89 sec
+2016-10-02 06:10:14,771 Stage-17 map = 77%,  reduce = 0%, Cumulative CPU 161.45 sec
+2016-10-02 06:10:15,802 Stage-17 map = 81%,  reduce = 0%, Cumulative CPU 163.76 sec
+2016-10-02 06:10:16,850 Stage-17 map = 87%,  reduce = 0%, Cumulative CPU 166.29 sec
+2016-10-02 06:10:17,902 Stage-17 map = 89%,  reduce = 0%, Cumulative CPU 169.37 sec
+2016-10-02 06:10:18,944 Stage-17 map = 92%,  reduce = 0%, Cumulative CPU 171.05 sec
+2016-10-02 06:10:19,986 Stage-17 map = 96%,  reduce = 0%, Cumulative CPU 173.74 sec
+2016-10-02 06:10:21,020 Stage-17 map = 98%,  reduce = 0%, Cumulative CPU 174.77 sec
+2016-10-02 06:10:22,051 Stage-17 map = 100%,  reduce = 0%, Cumulative CPU 175.42 sec
+MapReduce Total cumulative CPU time: 2 minutes 55 seconds 420 msec
+Ended Job = job_1475388471800_0001
+Launching Job 5 out of 11
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1475388471800_0002, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0002/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0002
+Hadoop job information for Stage-20: number of mappers: 51; number of reducers: 0
+2016-10-02 06:10:28,410 Stage-20 map = 0%,  reduce = 0%
+2016-10-02 06:10:41,025 Stage-20 map = 1%,  reduce = 0%, Cumulative CPU 10.16 sec
+2016-10-02 06:10:42,064 Stage-20 map = 4%,  reduce = 0%, Cumulative CPU 51.17 sec
+2016-10-02 06:10:44,147 Stage-20 map = 6%,  reduce = 0%, Cumulative CPU 57.67 sec
+2016-10-02 06:10:47,268 Stage-20 map = 9%,  reduce = 0%, Cumulative CPU 69.26 sec
+2016-10-02 06:10:48,305 Stage-20 map = 14%,  reduce = 0%, Cumulative CPU 73.48 sec
+2016-10-02 06:10:50,398 Stage-20 map = 18%,  reduce = 0%, Cumulative CPU 81.97 sec
+2016-10-02 06:10:51,447 Stage-20 map = 20%,  reduce = 0%, Cumulative CPU 84.83 sec
+2016-10-02 06:10:52,488 Stage-20 map = 21%,  reduce = 0%, Cumulative CPU 85.61 sec
+2016-10-02 06:10:53,523 Stage-20 map = 22%,  reduce = 0%, Cumulative CPU 93.53 sec
+2016-10-02 06:10:55,586 Stage-20 map = 23%,  reduce = 0%, Cumulative CPU 94.33 sec
+2016-10-02 06:10:56,627 Stage-20 map = 26%,  reduce = 0%, Cumulative CPU 102.25 sec
+2016-10-02 06:10:57,705 Stage-20 map = 30%,  reduce = 0%, Cumulative CPU 104.64 sec
+2016-10-02 06:10:58,797 Stage-20 map = 31%,  reduce = 0%, Cumulative CPU 106.24 sec
+2016-10-02 06:11:04,066 Stage-20 map = 33%,  reduce = 0%, Cumulative CPU 117.32 sec
+2016-10-02 06:11:05,108 Stage-20 map = 34%,  reduce = 0%, Cumulative CPU 121.94 sec
+2016-10-02 06:11:06,158 Stage-20 map = 35%,  reduce = 0%, Cumulative CPU 132.31 sec
+2016-10-02 06:11:07,203 Stage-20 map = 38%,  reduce = 0%, Cumulative CPU 142.87 sec
+2016-10-02 06:11:08,240 Stage-20 map = 39%,  reduce = 0%, Cumulative CPU 150.74 sec
+2016-10-02 06:11:09,282 Stage-20 map = 41%,  reduce = 0%, Cumulative CPU 157.87 sec
+2016-10-02 06:11:10,319 Stage-20 map = 43%,  reduce = 0%, Cumulative CPU 166.79 sec
+2016-10-02 06:11:11,360 Stage-20 map = 45%,  reduce = 0%, Cumulative CPU 172.1 sec
+2016-10-02 06:11:12,409 Stage-20 map = 46%,  reduce = 0%, Cumulative CPU 174.27 sec
+2016-10-02 06:11:13,457 Stage-20 map = 47%,  reduce = 0%, Cumulative CPU 177.59 sec
+2016-10-02 06:11:15,555 Stage-20 map = 49%,  reduce = 0%, Cumulative CPU 181.8 sec
+2016-10-02 06:11:16,607 Stage-20 map = 52%,  reduce = 0%, Cumulative CPU 184.1 sec
+2016-10-02 06:11:17,669 Stage-20 map = 54%,  reduce = 0%, Cumulative CPU 189.54 sec
+2016-10-02 06:11:18,745 Stage-20 map = 55%,  reduce = 0%, Cumulative CPU 192.27 sec
+2016-10-02 06:11:19,793 Stage-20 map = 59%,  reduce = 0%, Cumulative CPU 199.93 sec
+2016-10-02 06:11:20,836 Stage-20 map = 61%,  reduce = 0%, Cumulative CPU 202.64 sec
+2016-10-02 06:11:21,899 Stage-20 map = 62%,  reduce = 0%, Cumulative CPU 207.76 sec
+2016-10-02 06:11:22,989 Stage-20 map = 66%,  reduce = 0%, Cumulative CPU 214.33 sec
+2016-10-02 06:11:24,041 Stage-20 map = 68%,  reduce = 0%, Cumulative CPU 220.41 sec
+2016-10-02 06:11:25,119 Stage-20 map = 70%,  reduce = 0%, Cumulative CPU 222.89 sec
+2016-10-02 06:11:26,183 Stage-20 map = 73%,  reduce = 0%, Cumulative CPU 228.97 sec
+2016-10-02 06:11:27,237 Stage-20 map = 74%,  reduce = 0%, Cumulative CPU 229.83 sec
+2016-10-02 06:11:28,276 Stage-20 map = 75%,  reduce = 0%, Cumulative CPU 235.05 sec
+2016-10-02 06:11:29,316 Stage-20 map = 76%,  reduce = 0%, Cumulative CPU 239.13 sec
+2016-10-02 06:11:30,349 Stage-20 map = 77%,  reduce = 0%, Cumulative CPU 246.62 sec
+2016-10-02 06:11:31,384 Stage-20 map = 78%,  reduce = 0%, Cumulative CPU 250.68 sec
+2016-10-02 06:11:32,418 Stage-20 map = 79%,  reduce = 0%, Cumulative CPU 260.2 sec
+2016-10-02 06:11:33,460 Stage-20 map = 80%,  reduce = 0%, Cumulative CPU 267.23 sec
+2016-10-02 06:11:34,509 Stage-20 map = 82%,  reduce = 0%, Cumulative CPU 271.4 sec
+2016-10-02 06:11:35,545 Stage-20 map = 84%,  reduce = 0%, Cumulative CPU 276.31 sec
+2016-10-02 06:11:36,578 Stage-20 map = 88%,  reduce = 0%, Cumulative CPU 280.94 sec
+2016-10-02 06:11:37,614 Stage-20 map = 89%,  reduce = 0%, Cumulative CPU 282.33 sec
+2016-10-02 06:11:38,655 Stage-20 map = 92%,  reduce = 0%, Cumulative CPU 285.81 sec
+2016-10-02 06:11:40,718 Stage-20 map = 93%,  reduce = 0%, Cumulative CPU 290.36 sec
+2016-10-02 06:11:41,751 Stage-20 map = 97%,  reduce = 0%, Cumulative CPU 294.35 sec
+2016-10-02 06:11:43,816 Stage-20 map = 99%,  reduce = 0%, Cumulative CPU 296.06 sec
+2016-10-02 06:11:44,846 Stage-20 map = 100%,  reduce = 0%, Cumulative CPU 297.13 sec
+MapReduce Total cumulative CPU time: 4 minutes 57 seconds 130 msec
+Ended Job = job_1475388471800_0002
+Launching Job 6 out of 11
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1475388471800_0003, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0003/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0003
+Hadoop job information for Stage-23: number of mappers: 75; number of reducers: 0
+2016-10-02 06:11:51,007 Stage-23 map = 0%,  reduce = 0%
+2016-10-02 06:12:06,677 Stage-23 map = 5%,  reduce = 0%, Cumulative CPU 85.44 sec
+2016-10-02 06:12:08,760 Stage-23 map = 6%,  reduce = 0%, Cumulative CPU 87.76 sec
+2016-10-02 06:12:09,794 Stage-23 map = 11%,  reduce = 0%, Cumulative CPU 97.87 sec
+2016-10-02 06:12:10,831 Stage-23 map = 13%,  reduce = 0%, Cumulative CPU 99.75 sec
+2016-10-02 06:12:14,988 Stage-23 map = 15%,  reduce = 0%, Cumulative CPU 108.9 sec
+2016-10-02 06:12:16,062 Stage-23 map = 21%,  reduce = 0%, Cumulative CPU 114.07 sec
+2016-10-02 06:12:22,436 Stage-23 map = 22%,  reduce = 0%, Cumulative CPU 134.49 sec
+2016-10-02 06:12:24,542 Stage-23 map = 24%,  reduce = 0%, Cumulative CPU 142.55 sec
+2016-10-02 06:12:25,575 Stage-23 map = 25%,  reduce = 0%, Cumulative CPU 144.66 sec
+2016-10-02 06:12:28,677 Stage-23 map = 27%,  reduce = 0%, Cumulative CPU 197.38 sec
+2016-10-02 06:12:29,711 Stage-23 map = 32%,  reduce = 0%, Cumulative CPU 202.66 sec
+2016-10-02 06:12:33,867 Stage-23 map = 34%,  reduce = 0%, Cumulative CPU 213.81 sec
+2016-10-02 06:12:34,903 Stage-23 map = 35%,  reduce = 0%, Cumulative CPU 215.09 sec
+2016-10-02 06:12:36,988 Stage-23 map = 39%,  reduce = 0%, Cumulative CPU 228.3 sec
+2016-10-02 06:12:38,051 Stage-23 map = 40%,  reduce = 0%, Cumulative CPU 229.85 sec
+2016-10-02 06:12:39,088 Stage-23 map = 43%,  reduce = 0%, Cumulative CPU 237.73 sec
+2016-10-02 06:12:40,133 Stage-23 map = 44%,  reduce = 0%, Cumulative CPU 249.43 sec
+2016-10-02 06:12:42,212 Stage-23 map = 46%,  reduce = 0%, Cumulative CPU 258.14 sec
+2016-10-02 06:12:43,254 Stage-23 map = 47%,  reduce = 0%, Cumulative CPU 259.39 sec
+2016-10-02 06:12:45,341 Stage-23 map = 48%,  reduce = 0%, Cumulative CPU 262.69 sec
+2016-10-02 06:12:46,379 Stage-23 map = 51%,  reduce = 0%, Cumulative CPU 281.05 sec
+2016-10-02 06:12:48,454 Stage-23 map = 52%,  reduce = 0%, Cumulative CPU 292.97 sec
+2016-10-02 06:12:49,533 Stage-23 map = 53%,  reduce = 0%, Cumulative CPU 307.32 sec
+2016-10-02 06:12:51,597 Stage-23 map = 54%,  reduce = 0%, Cumulative CPU 322.74 sec
+2016-10-02 06:12:52,635 Stage-23 map = 55%,  reduce = 0%, Cumulative CPU 330.47 sec
+2016-10-02 06:12:53,690 Stage-23 map = 57%,  reduce = 0%, Cumulative CPU 339.33 sec
+2016-10-02 06:12:55,766 Stage-23 map = 58%,  reduce = 0%, Cumulative CPU 347.75 sec
+2016-10-02 06:12:56,818 Stage-23 map = 62%,  reduce = 0%, Cumulative CPU 357.99 sec
+2016-10-02 06:12:57,849 Stage-23 map = 63%,  reduce = 0%, Cumulative CPU 358.86 sec
+2016-10-02 06:12:59,920 Stage-23 map = 65%,  reduce = 0%, Cumulative CPU 374.88 sec
+2016-10-02 06:13:00,964 Stage-23 map = 68%,  reduce = 0%, Cumulative CPU 381.97 sec
+2016-10-02 06:13:02,024 Stage-23 map = 70%,  reduce = 0%, Cumulative CPU 389.31 sec
+2016-10-02 06:13:03,065 Stage-23 map = 71%,  reduce = 0%, Cumulative CPU 391.92 sec
+2016-10-02 06:13:04,141 Stage-23 map = 72%,  reduce = 0%, Cumulative CPU 393.41 sec
+2016-10-02 06:13:05,180 Stage-23 map = 73%,  reduce = 0%, Cumulative CPU 395.27 sec
+2016-10-02 06:13:07,268 Stage-23 map = 74%,  reduce = 0%, Cumulative CPU 409.12 sec
+2016-10-02 06:13:08,305 Stage-23 map = 75%,  reduce = 0%, Cumulative CPU 414.7 sec
+2016-10-02 06:13:10,374 Stage-23 map = 77%,  reduce = 0%, Cumulative CPU 422.0 sec
+2016-10-02 06:13:12,447 Stage-23 map = 78%,  reduce = 0%, Cumulative CPU 455.1 sec
+2016-10-02 06:13:13,482 Stage-23 map = 79%,  reduce = 0%, Cumulative CPU 456.04 sec
+2016-10-02 06:13:14,519 Stage-23 map = 81%,  reduce = 0%, Cumulative CPU 467.84 sec
+2016-10-02 06:13:17,614 Stage-23 map = 82%,  reduce = 0%, Cumulative CPU 478.51 sec
+2016-10-02 06:13:18,645 Stage-23 map = 85%,  reduce = 0%, Cumulative CPU 488.51 sec
+2016-10-02 06:13:22,792 Stage-23 map = 87%,  reduce = 0%, Cumulative CPU 502.7 sec
+2016-10-02 06:13:23,840 Stage-23 map = 89%,  reduce = 0%, Cumulative CPU 508.78 sec
+2016-10-02 06:13:24,874 Stage-23 map = 90%,  reduce = 0%, Cumulative CPU 511.93 sec
+2016-10-02 06:13:25,906 Stage-23 map = 91%,  reduce = 0%, Cumulative CPU 513.08 sec
+2016-10-02 06:13:26,939 Stage-23 map = 92%,  reduce = 0%, Cumulative CPU 515.44 sec
+2016-10-02 06:13:27,969 Stage-23 map = 94%,  reduce = 0%, Cumulative CPU 523.09 sec
+2016-10-02 06:13:30,029 Stage-23 map = 95%,  reduce = 0%, Cumulative CPU 526.01 sec
+2016-10-02 06:13:31,061 Stage-23 map = 97%,  reduce = 0%, Cumulative CPU 528.33 sec
+2016-10-02 06:13:35,185 Stage-23 map = 98%,  reduce = 0%, Cumulative CPU 531.99 sec
+2016-10-02 06:13:36,218 Stage-23 map = 99%,  reduce = 0%, Cumulative CPU 533.14 sec
+2016-10-02 06:13:37,247 Stage-23 map = 100%,  reduce = 0%, Cumulative CPU 534.2 sec
+MapReduce Total cumulative CPU time: 8 minutes 54 seconds 200 msec
+Ended Job = job_1475388471800_0003
+Stage-27 is filtered out by condition resolver.
+Stage-28 is selected by condition resolver.
+Stage-2 is filtered out by condition resolver.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5.log
+2016-10-02 06:13:41	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-10-02 06:13:42	Dump the side-table for tag: 0 with group count: 1133 into file: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10014/HashTable-Stage-15/MapJoin-mapfile20--.hashtable
+2016-10-02 06:13:42	Uploaded 1 File to: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10014/HashTable-Stage-15/MapJoin-mapfile20--.hashtable (48343 bytes)
+2016-10-02 06:13:42	End of local task; Time Taken: 1.507 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 8 out of 11
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1475388471800_0004, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0004/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0004
+Hadoop job information for Stage-15: number of mappers: 9; number of reducers: 0
+2016-10-02 06:13:49,751 Stage-15 map = 0%,  reduce = 0%
+2016-10-02 06:13:56,970 Stage-15 map = 11%,  reduce = 0%, Cumulative CPU 1.35 sec
+2016-10-02 06:13:58,002 Stage-15 map = 22%,  reduce = 0%, Cumulative CPU 2.84 sec
+2016-10-02 06:13:59,049 Stage-15 map = 44%,  reduce = 0%, Cumulative CPU 13.0 sec
+2016-10-02 06:14:00,081 Stage-15 map = 78%,  reduce = 0%, Cumulative CPU 25.46 sec
+2016-10-02 06:14:02,146 Stage-15 map = 94%,  reduce = 0%, Cumulative CPU 37.41 sec
+2016-10-02 06:14:03,180 Stage-15 map = 100%,  reduce = 0%, Cumulative CPU 38.75 sec
+MapReduce Total cumulative CPU time: 38 seconds 750 msec
+Ended Job = job_1475388471800_0004
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/tez-0.7.1-SNAPSHOT-minimal/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/software/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Execution log at: /tmp/ubuntu/ubuntu_20161002060907_c7c6df6f-0f1e-4546-95a5-9a31494131f5.log
+2016-10-02 06:14:07	Starting to launch local task to process map join;	maximum memory = 932184064
+2016-10-02 06:14:08	Dump the side-table for tag: 1 with group count: 25200 into file: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10010/HashTable-Stage-4/MapJoin-mapfile01--.hashtable
+2016-10-02 06:14:08	Uploaded 1 File to: file:/tmp/ubuntu/f5b2f8c7-0d0c-46c6-b9b1-351c6804540f/hive_2016-10-02_06-09-07_501_2879420503212699965-1/-local-10010/HashTable-Stage-4/MapJoin-mapfile01--.hashtable (589187 bytes)
+2016-10-02 06:14:08	End of local task; Time Taken: 1.725 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 9 out of 11
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475388471800_0005, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0005/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0005
+Hadoop job information for Stage-4: number of mappers: 2; number of reducers: 1
+2016-10-02 06:14:14,759 Stage-4 map = 0%,  reduce = 0%
+2016-10-02 06:14:23,021 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 8.34 sec
+2016-10-02 06:14:29,198 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 11.22 sec
+MapReduce Total cumulative CPU time: 11 seconds 220 msec
+Ended Job = job_1475388471800_0005
+Launching Job 10 out of 11
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475388471800_0006, Tracking URL = http://vm1:8088/proxy/application_1475388471800_0006/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475388471800_0006
+Hadoop job information for Stage-5: number of mappers: 1; number of reducers: 1
+2016-10-02 06:14:35,265 Stage-5 map = 0%,  reduce = 0%
+2016-10-02 06:14:41,466 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.76 sec
+2016-10-02 06:14:48,676 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 5.63 sec
+MapReduce Total cumulative CPU time: 5 seconds 630 msec
+Ended Job = job_1475388471800_0006
+MapReduce Jobs Launched: 
+Stage-Stage-17: Map: 26   Cumulative CPU: 175.42 sec   HDFS Read: 7607695644 HDFS Write: 33559270 SUCCESS
+Stage-Stage-20: Map: 51   Cumulative CPU: 297.13 sec   HDFS Read: 15206654825 HDFS Write: 66584461 SUCCESS
+Stage-Stage-23: Map: 75   Cumulative CPU: 534.2 sec   HDFS Read: 20137314565 HDFS Write: 124611073 SUCCESS
+Stage-Stage-15: Map: 9   Cumulative CPU: 38.75 sec   HDFS Read: 224865895 HDFS Write: 6872016 SUCCESS
+Stage-Stage-4: Map: 2  Reduce: 1   Cumulative CPU: 11.22 sec   HDFS Read: 6896857 HDFS Write: 1797898 SUCCESS
+Stage-Stage-5: Map: 1  Reduce: 1   Cumulative CPU: 5.63 sec   HDFS Read: 1803108 HDFS Write: 1756938 SUCCESS
+Total MapReduce CPU Time Spent: 17 minutes 42 seconds 350 msec
 OK
 2003002	exportiimporto #2	18	36	48569.470306396484
 1003002	exportiamalg #2	17	21	46980.85012817383
@@ -16508,8 +16492,8 @@ OK
 4004001	edu packimporto #2	19	19	2299.3798828125
 1002001	exportiunivamalg #10	17	59	2299.3599548339844
 5002001	scholarunivamalg #1	17	49	2298.659912109375
-3003001	univamalgamalg #6	7	4	2298.239990234375
 3003001	exportiedu pack #2	18	6	2298.239990234375
+3003001	univamalgamalg #6	7	4	2298.239990234375
 8012010	importomaxi #10	18	3	2298.10009765625
 7004008	edu packbrand #8	9	42	2297.39990234375
 7001001	exportiedu pack #2	6	14	2297.360107421875
@@ -21329,8 +21313,8 @@ OK
 6009001	amalgamalg #2	9	21	1349.530029296875
 9012011	importoamalg #2	18	16	1349.47998046875
 7009005	amalgscholar #2	6	35	1349.3800048828125
-10007012	brandunivamalg #12	19	37	1349.0400390625
 10007012	brandunivamalg #12	17	16	1349.0400390625
+10007012	brandunivamalg #12	19	37	1349.0400390625
 10009002	importoimporto #2	17	48	1349.0400390625
 7012010	importonameless #10	17	33	1348.5999755859375
 9009002	maximaxi #2	19	30	1348.2999649047852
@@ -21559,8 +21543,8 @@ OK
 4001001	importoedu pack #2	17	2	1316.0999755859375
 8009010	maxinameless #10	7	1	1316.06005859375
 9016004	corpunivamalg #4	18	55	1315.800048828125
-7002008	importobrand #8	19	32	1315.43994140625
 7002008	importobrand #8	17	7	1315.43994140625
+7002008	importobrand #8	19	32	1315.43994140625
 7016009	univnameless #10	17	8	1315.0799560546875
 10015015	scholaramalgamalg #15	8	27	1314.6700439453125
 6003008	exporticorp #8	19	32	1314.5999755859375
@@ -23369,8 +23353,8 @@ OK
 3004002	edu packexporti #2	8	57	1048.929988861084
 1003001	amalgbrand #6	19	17	1048.8100280761719
 3001002	amalgexporti #2	7	19	1048.800048828125
-7003005	exportiedu pack #2	6	32	1048.800048828125
 7003005	exportiedu pack #2	9	22	1048.800048828125
+7003005	exportiedu pack #2	6	32	1048.800048828125
 7010006	univnameless #6	17	27	1048.0999755859375
 10006003	corpunivamalg #3	9	49	1047.8800048828125
 1004002	edu packamalg #2	17	30	1047.719985961914
@@ -25530,8 +25514,8 @@ OK
 5002002	importoscholar #2	8	55	770.5
 5002001	scholarunivamalg #1	8	37	770.4000244140625
 8001007	amalgamalg #2	19	46	770.0999755859375
-8012004	importomaxi #4	18	24	770.0399780273438
 8012004	importomaxi #4	19	5	770.0399780273438
+8012004	importomaxi #4	18	24	770.0399780273438
 10011014	amalgamalgamalg #14	19	16	770.0399780273438
 3001001	amalgamalgamalg #5	7	58	769.5999755859375
 7005006	scholarbrand #6	18	43	769.4199829101562
@@ -32197,8 +32181,8 @@ OK
 10011009	amalgamalgamalg #9	19	6	203.49000549316406
 6005005	edu packnameless #8	9	13	203.23999404907227
 10008009	corpcorp #8	17	4	203.1300048828125
-4004001	maxinameless #8	18	25	203.0
 4004001	amalgexporti #2	6	29	203.0
+4004001	maxinameless #8	18	25	203.0
 3001002	amalgexporti #2	6	16	202.97999572753906
 8005001	univmaxi #2	19	55	202.97999572753906
 4001001	importobrand #2	19	20	202.8800048828125
@@ -32997,8 +32981,8 @@ OK
 9014003	scholarunivamalg #9	9	45	158.77999877929688
 4002001	corpcorp #6	18	3	158.75999450683594
 9004003	amalgmaxi #10	9	6	158.5
-7008004	namelessbrand #4	9	56	158.39999389648438
 7008004	namelessbrand #4	18	51	158.39999389648438
+7008004	namelessbrand #4	9	56	158.39999389648438
 9011008	amalgunivamalg #8	19	57	158.39999389648438
 9014002	edu packunivamalg #2	7	57	158.39999389648438
 10016016	corpamalgamalg #16	17	40	158.39999389648438
@@ -35131,8 +35115,8 @@ OK
 7009005	amalgscholar #2	19	54	56.279998779296875
 5002001	exportiimporto #2	9	42	56.15999984741211
 8014005	edu packamalg #2	19	53	56.15999984741211
-10008004	namelessunivamalg #4	9	55	56.15999984741211
 10008004	namelessunivamalg #4	19	18	56.15999984741211
+10008004	namelessunivamalg #4	9	55	56.15999984741211
 10014011	edu packamalgamalg #11	18	37	56.099998474121094
 6014004	edu packbrand #4	18	41	56.06999969482422
 5002002	importoscholar #2	9	34	56.04000186920166
@@ -36121,8 +36105,8 @@ OK
 3004001	edu packexporti #2	9	31	21.760000228881836
 5001001	brandunivamalg #11	9	21	21.760000228881836
 10011001	amalgedu pack #2	9	5	21.739999771118164
-5001001	edu packexporti #2	9	49	21.700000762939453
 5001001	edu packexporti #2	18	14	21.700000762939453
+5001001	edu packexporti #2	9	49	21.700000762939453
 6012004	importobrand #4	8	36	21.700000762939453
 5002002	importoscholar #2	19	57	21.600000381469727
 6010002	univbrand #2	17	28	21.579999923706055
@@ -36768,129 +36752,129 @@ OK
 9011003	amalgnameless #4	8	12	0.4000000059604645
 10005001	scholarunivamalg #1	17	22	0.20000000298023224
 9013002	exportiunivamalg #2	17	37	0.14000000059604645
-1001001	brandnameless #8	19	49	0.0
 1001001	exportiexporti #2	18	21	0.0
 1001001	univamalgamalg #16	9	16	0.0
 1001001	brandnameless #8	17	28	0.0
+1001001	brandnameless #8	19	49	0.0
 1001002	amalgamalg #2	7	26	0.0
 1003001	brandbrand #6	17	3	0.0
 1004001	edu packimporto #2	9	59	0.0
 2001001	importoimporto #2	17	31	0.0
 2001001	namelessnameless #10	19	44	0.0
-2002001	edu packbrand #2	6	42	0.0
-2002001	amalgscholar #2	17	38	0.0
 2002001	edu packedu pack #2	17	55	0.0
+2002001	edu packbrand #2	6	42	0.0
 2002001	amalgscholar #2	18	19	0.0
-2002001	importoexporti #2	18	47	0.0
-2002001	edu packbrand #2	19	49	0.0
+2002001	amalgscholar #2	17	38	0.0
 2002001	importoexporti #2	18	20	0.0
-2003001	amalgamalg #2	8	31	0.0
-2003001	amalgamalg #2	8	33	0.0
+2002001	edu packbrand #2	19	49	0.0
+2002001	importoexporti #2	18	47	0.0
 2003001	amalgamalg #2	19	14	0.0
+2003001	amalgamalg #2	8	31	0.0
 2003001	edu packexporti #2	19	33	0.0
-2004001	importoexporti #2	17	23	0.0
-2004001	brandmaxi #10	18	21	0.0
+2003001	amalgamalg #2	8	33	0.0
 2004001	edu packunivamalg #8	17	12	0.0
-2004001	edu packexporti #2	19	48	0.0
 2004001	edu packunivamalg #8	19	12	0.0
+2004001	importoexporti #2	17	23	0.0
+2004001	edu packexporti #2	19	48	0.0
 2004001	edu packexporti #2	9	55	0.0
+2004001	brandmaxi #10	18	21	0.0
 2004001	maxiunivamalg #10	8	47	0.0
 2004002	edu packimporto #2	6	39	0.0
 2004002	edu packimporto #2	8	45	0.0
-3001001	amalgamalgamalg #5	17	38	0.0
 3001001	amalgamalgamalg #5	17	49	0.0
-3001002	amalgexporti #2	8	26	0.0
+3001001	amalgamalgamalg #5	17	38	0.0
 3001002	amalgexporti #2	6	24	0.0
+3001002	amalgexporti #2	8	26	0.0
 3002001	univamalgamalg #6	17	23	0.0
-3002002	importoexporti #2	6	21	0.0
 3002002	importoexporti #2	7	18	0.0
+3002002	importoexporti #2	6	21	0.0
 3003001	univamalgamalg #6	17	44	0.0
-3003001	importoimporto #2	18	22	0.0
 3003001	univamalgamalg #6	9	51	0.0
 3003001	amalgmaxi #10	18	8	0.0
+3003001	importoimporto #2	18	22	0.0
+3004001	edu packexporti #2	9	48	0.0
 3004001	edu packscholar #2	9	37	0.0
 3004001	edu packexporti #2	7	16	0.0
-3004001	edu packexporti #2	9	48	0.0
 3004001	edu packscholar #2	19	46	0.0
 3004002	edu packexporti #2	9	44	0.0
 4001001	exportiexporti #2	17	20	0.0
 4001001	maxiunivamalg #16	19	24	0.0
 4001001	exportiexporti #2	17	24	0.0
 4001002	amalgedu pack #2	19	3	0.0
-4002001	scholarmaxi #6	17	54	0.0
-4002001	corpcorp #6	17	2	0.0
 4002001	corpbrand #8	17	4	0.0
+4002001	scholarmaxi #6	17	54	0.0
 4002001	scholarmaxi #6	9	22	0.0
+4002001	corpcorp #6	17	2	0.0
 4002001	edu packscholar #2	8	14	0.0
 4002002	importoedu pack #2	7	46	0.0
+4003001	importoedu pack #2	9	7	0.0
+4003001	importoedu pack #2	17	36	0.0
 4003001	exportiexporti #2	17	35	0.0
 4003001	edu packamalg #2	8	1	0.0
-4003001	importoedu pack #2	17	36	0.0
-4003001	importoedu pack #2	9	7	0.0
-4003002	exportiedu pack #2	9	25	0.0
 4003002	exportiedu pack #2	18	3	0.0
+4003002	exportiedu pack #2	9	25	0.0
+4004001	amalgexporti #2	17	58	0.0
 4004001	exportiamalg #2	18	10	0.0
+4004001	exportiamalg #2	19	45	0.0
 4004001	importoscholar #2	9	14	0.0
 4004001	exportiedu pack #2	19	28	0.0
-4004001	exportiamalg #2	19	45	0.0
-4004001	amalgexporti #2	17	58	0.0
+5001001	exportinameless #8	17	15	0.0
+5001001	brandunivamalg #11	8	13	0.0
+5001001	amalgbrand #8	17	55	0.0
 5001001	edu packexporti #2	19	20	0.0
 5001001	amalgscholar #2	9	50	0.0
 5001001	namelessmaxi #4	6	29	0.0
-5001001	exportinameless #8	17	15	0.0
 5001001	brandunivamalg #11	9	14	0.0
-5001001	amalgbrand #8	17	55	0.0
-5001001	brandunivamalg #11	8	13	0.0
 5001002	amalgscholar #2	7	49	0.0
-5002001	amalgimporto #2	17	49	0.0
-5002001	amalgmaxi #4	19	4	0.0
 5002001	amalgamalgamalg #12	18	16	0.0
-5002001	amalgamalgamalg #12	8	30	0.0
 5002001	exportiamalg #2	6	50	0.0
-5003001	importoimporto #2	9	42	0.0
+5002001	amalgimporto #2	17	49	0.0
+5002001	amalgamalgamalg #12	8	30	0.0
+5002001	amalgmaxi #4	19	4	0.0
 5003001	importoimporto #2	9	57	0.0
+5003001	importoimporto #2	9	42	0.0
 5003002	exportischolar #2	7	8	0.0
 5003002	exportischolar #2	8	27	0.0
 5004001	amalgedu pack #2	7	18	0.0
 5004002	edu packscholar #2	6	50	0.0
 6002006	importocorp #6	19	58	0.0
-6002008	importocorp #8	6	5	0.0
 6002008	importocorp #8	7	29	0.0
+6002008	importocorp #8	6	5	0.0
 6004002	edu packcorp #2	17	17	0.0
-6004003	brandbrand #10	18	44	0.0
 6004003	brandbrand #10	9	56	0.0
+6004003	brandbrand #10	18	44	0.0
 6004007	edu packscholar #2	18	27	0.0
 6005001	importomaxi #6	18	42	0.0
-6005005	edu packnameless #8	9	36	0.0
 6005005	edu packcorp #6	7	24	0.0
+6005005	edu packnameless #8	9	36	0.0
 6005008	scholarcorp #8	6	4	0.0
 6006001	amalgscholar #2	18	15	0.0
 6006004	corpcorp #4	17	1	0.0
 6008002	namelesscorp #2	9	23	0.0
-6009001	amalgamalg #2	8	22	0.0
 6009001	amalgamalg #2	8	1	0.0
+6009001	amalgamalg #2	8	22	0.0
 6010002	univbrand #2	17	27	0.0
 6010004	univbrand #4	7	24	0.0
 6010004	univbrand #4	6	42	0.0
 6011003	importobrand #4	8	44	0.0
 6012002	importobrand #2	19	29	0.0
-6012008	importobrand #8	19	16	0.0
 6012008	importobrand #8	17	55	0.0
+6012008	importobrand #8	19	16	0.0
 6013002	exportibrand #2	19	33	0.0
 6014002	edu packbrand #2	8	5	0.0
 6014004	edu packbrand #4	17	4	0.0
-6014005	edu packamalgamalg #8	9	10	0.0
 6014005	edu packamalgamalg #8	8	22	0.0
+6014005	edu packamalgamalg #8	9	10	0.0
 6015002	scholarbrand #2	7	8	0.0
 6015002	scholarbrand #2	8	30	0.0
-6016001	amalgexporti #2	17	33	0.0
-6016001	amalgexporti #2	17	27	0.0
-6016001	amalgexporti #2	19	2	0.0
 6016001	amalgexporti #2	9	58	0.0
+6016001	amalgexporti #2	17	27	0.0
+6016001	amalgexporti #2	17	33	0.0
+6016001	amalgexporti #2	19	2	0.0
+6016006	corpbrand #6	9	28	0.0
+6016006	corpbrand #6	8	37	0.0
 6016006	corpbrand #6	8	22	0.0
 6016006	corpbrand #6	9	41	0.0
-6016006	corpbrand #6	8	37	0.0
-6016006	corpbrand #6	9	28	0.0
 6016008	corpbrand #8	9	33	0.0
 7001002	amalgbrand #2	8	9	0.0
 7001004	amalgbrand #4	17	56	0.0
@@ -36901,8 +36885,8 @@ OK
 7004009	importoimporto #2	19	4	0.0
 7007004	brandbrand #4	9	14	0.0
 7007004	brandbrand #4	9	45	0.0
-7008004	namelessbrand #4	17	30	0.0
 7008004	namelessbrand #4	7	56	0.0
+7008004	namelessbrand #4	17	30	0.0
 7008010	namelessbrand #10	19	57	0.0
 7009004	maxibrand #4	7	28	0.0
 7009005	amalgscholar #2	18	30	0.0
@@ -36912,16 +36896,16 @@ OK
 7010006	univnameless #6	6	28	0.0
 7010006	univnameless #6	8	28	0.0
 7010008	univnameless #8	18	15	0.0
-7010010	univnameless #10	17	8	0.0
 7010010	univnameless #10	8	44	0.0
-7012001	scholarcorp #6	17	29	0.0
+7010010	univnameless #10	17	8	0.0
 7012001	amalgamalgamalg #2	6	47	0.0
+7012001	scholarcorp #6	17	29	0.0
 7012008	importonameless #8	9	26	0.0
 7012008	importonameless #8	19	27	0.0
 7012009	amalgamalg #2	17	16	0.0
 7012010	importonameless #10	7	4	0.0
-7013002	exportinameless #2	17	28	0.0
 7013002	exportinameless #2	9	20	0.0
+7013002	exportinameless #2	17	28	0.0
 7014003	edu packcorp #2	18	13	0.0
 7014003	edu packcorp #2	8	3	0.0
 7015002	scholarnameless #2	19	13	0.0
@@ -36933,13 +36917,13 @@ OK
 7016009	univnameless #10	8	50	0.0
 8001009	amalgamalg #2	9	41	0.0
 8003004	exportinameless #4	18	22	0.0
-8003007	edu packnameless #8	9	28	0.0
 8003007	edu packnameless #8	18	35	0.0
+8003007	edu packnameless #8	9	28	0.0
 8004001	importonameless #2	18	38	0.0
 8004001	importonameless #2	19	52	0.0
 8005002	scholarnameless #2	17	38	0.0
-8005005	importonameless #6	7	1	0.0
 8005005	importonameless #6	19	5	0.0
+8005005	importonameless #6	7	1	0.0
 8005010	scholarnameless #10	18	34	0.0
 8005010	scholarnameless #10	17	38	0.0
 8005010	scholarnameless #10	9	17	0.0
@@ -36952,17 +36936,17 @@ OK
 8010002	univmaxi #2	17	3	0.0
 8010003	namelessunivamalg #5	7	7	0.0
 8010007	corpbrand #4	18	3	0.0
-8010007	corpbrand #4	9	3	0.0
 8010007	corpbrand #4	17	17	0.0
+8010007	corpbrand #4	9	3	0.0
 8011002	amalgmaxi #2	7	21	0.0
 8012005	corpmaxi #4	18	17	0.0
 8012010	importomaxi #10	9	10	0.0
-8013004	exportimaxi #4	9	24	0.0
 8013004	exportimaxi #4	18	39	0.0
+8013004	exportimaxi #4	9	24	0.0
 8013004	exportimaxi #4	6	21	0.0
 8013007	edu packamalg #2	9	22	0.0
-8013008	exportimaxi #8	19	39	0.0
 8013008	exportimaxi #8	17	29	0.0
+8013008	exportimaxi #8	19	39	0.0
 8014009	edu packamalg #2	7	37	0.0
 8015003	importoamalg #2	18	42	0.0
 8015003	importoamalg #2	9	29	0.0
@@ -36974,23 +36958,23 @@ OK
 9006006	corpmaxi #6	9	3	0.0
 9007008	brandmaxi #8	9	49	0.0
 9007008	brandmaxi #8	17	58	0.0
-9007011	importoexporti #2	6	59	0.0
 9007011	importoexporti #2	17	24	0.0
+9007011	importoexporti #2	6	59	0.0
 9008002	namelessmaxi #2	17	8	0.0
 9009004	maximaxi #4	17	46	0.0
 9011003	amalgamalg #2	9	8	0.0
 9011008	amalgunivamalg #8	17	8	0.0
 9012006	importounivamalg #6	9	59	0.0
-9012006	importounivamalg #6	17	5	0.0
 9012006	importounivamalg #6	17	16	0.0
+9012006	importounivamalg #6	17	5	0.0
 9012011	importoamalg #2	19	57	0.0
 9013002	exportiunivamalg #2	9	38	0.0
-9013008	exportiunivamalg #8	8	22	0.0
 9013008	exportiunivamalg #8	9	56	0.0
+9013008	exportiunivamalg #8	8	22	0.0
 9014002	edu packunivamalg #2	17	6	0.0
-9014004	edu packunivamalg #4	19	55	0.0
-9014004	edu packunivamalg #4	19	38	0.0
 9014004	edu packunivamalg #4	6	42	0.0
+9014004	edu packunivamalg #4	19	38	0.0
+9014004	edu packunivamalg #4	19	55	0.0
 9014006	edu packunivamalg #6	19	14	0.0
 9014010	edu packunivamalg #10	8	9	0.0
 9014010	edu packunivamalg #10	7	5	0.0
@@ -36999,8 +36983,8 @@ OK
 10003006	exportiunivamalg #6	19	22	0.0
 10003007	exportiunivamalg #7	18	22	0.0
 10003011	exportiunivamalg #11	9	56	0.0
-10003011	exportiunivamalg #11	9	51	0.0
 10003011	exportiunivamalg #11	17	30	0.0
+10003011	exportiunivamalg #11	9	51	0.0
 10004004	edu packunivamalg #4	9	6	0.0
 10004008	edu packunivamalg #8	6	10	0.0
 10004012	edu packunivamalg #12	19	50	0.0
@@ -37015,8 +36999,8 @@ OK
 10008015	namelessunivamalg #15	17	13	0.0
 10009005	maxiunivamalg #5	18	12	0.0
 10009005	maxiunivamalg #5	19	7	0.0
-10009009	maxiunivamalg #9	17	47	0.0
 10009009	maxiunivamalg #9	8	49	0.0
+10009009	maxiunivamalg #9	17	47	0.0
 10009013	maxiunivamalg #13	18	33	0.0
 10009013	exportibrand #6	19	37	0.0
 10010001	importoimporto #2	18	9	0.0
@@ -37026,8 +37010,8 @@ OK
 10011001	amalgedu pack #2	9	56	0.0
 10011001	amalgedu pack #2	17	2	0.0
 10011001	amalgedu pack #2	9	23	0.0
-10011009	amalgscholar #2	18	1	0.0
 10011009	amalgamalgamalg #9	19	14	0.0
+10011009	amalgscholar #2	18	1	0.0
 10011012	importoimporto #2	9	55	0.0
 10011014	amalgamalgamalg #14	18	2	0.0
 10011014	amalgamalgamalg #14	9	42	0.0
@@ -37036,121 +37020,121 @@ OK
 10012004	importoamalgamalg #4	9	42	0.0
 10012016	amalgimporto #2	17	58	0.0
 10014014	edu packamalgamalg #14	6	30	0.0
-10015015	scholaramalgamalg #15	17	30	0.0
 10015015	scholaramalgamalg #15	18	17	0.0
-10015017	scholaramalgamalg #17	17	28	0.0
+10015015	scholaramalgamalg #15	17	30	0.0
 10015017	scholaramalgamalg #17	19	3	0.0
-10016003	corpamalgamalg #3	18	15	0.0
-10016003	corpamalgamalg #3	17	54	0.0
-10016003	corpamalgamalg #3	17	48	0.0
+10015017	scholaramalgamalg #17	17	28	0.0
 10016003	corpamalgamalg #3	17	46	0.0
+10016003	corpamalgamalg #3	17	48	0.0
+10016003	corpamalgamalg #3	17	54	0.0
+10016003	corpamalgamalg #3	18	15	0.0
 10016008	corpamalgamalg #8	18	48	0.0
 10016013	corpamalgamalg #13	9	39	0.0
 1001001	univamalgamalg #16	19	50	NULL
-1002001	importounivamalg #1	17	28	NULL
 1002001	importounivamalg #1	18	5	NULL
 1002001	importounivamalg #1	9	53	NULL
-1003001	exportiexporti #2	18	53	NULL
-1003001	amalgbrand #6	19	26	NULL
+1002001	importounivamalg #1	17	28	NULL
 1003001	brandbrand #6	18	7	NULL
+1003001	amalgbrand #6	19	26	NULL
+1003001	exportiexporti #2	18	53	NULL
 1004001	amalgunivamalg #6	19	0	NULL
-1004001	importounivamalg #5	8	25	NULL
 1004001	amalgunivamalg #6	18	24	NULL
+1004001	importounivamalg #5	8	25	NULL
 1004002	edu packamalg #2	18	24	NULL
 2001001	importoimporto #2	18	7	NULL
-2001001	namelessnameless #10	19	54	NULL
 2001001	amalgamalg #2	19	43	NULL
+2001001	namelessnameless #10	19	54	NULL
+2002001	edu packbrand #2	18	44	NULL
 2002001	importoexporti #2	9	22	NULL
 2002001	amalgscholar #2	17	29	NULL
-2002001	edu packbrand #2	18	44	NULL
-2002002	importoimporto #2	19	10	NULL
 2002002	importoimporto #2	17	26	NULL
+2002002	importoimporto #2	19	10	NULL
 2003001	amalgamalg #2	17	23	NULL
 2003001	scholarmaxi #12	17	50	NULL
-2004001	edu packunivamalg #8	19	5	NULL
 2004001	amalgamalg #2	9	7	NULL
 2004001	edu packunivamalg #8	19	0	NULL
 2004001	edu packexporti #2	9	34	NULL
-3001001	amalgamalgamalg #5	17	19	NULL
+2004001	edu packunivamalg #8	19	5	NULL
 3001001	maxibrand #8	18	7	NULL
+3001001	amalgamalgamalg #5	17	19	NULL
 3002001	univamalgamalg #6	8	48	NULL
 3002001	univamalgamalg #6	19	21	NULL
 3002002	importoexporti #2	8	38	NULL
 3003001	importoimporto #2	17	11	NULL
 3003001	amalgmaxi #10	18	52	NULL
 3003001	univamalgamalg #6	9	55	NULL
-3004001	edu packscholar #2	9	15	NULL
-3004001	edu packscholar #2	17	29	NULL
 3004001	edu packexporti #2	9	11	NULL
-3004002	edu packexporti #2	18	27	NULL
+3004001	edu packscholar #2	17	29	NULL
+3004001	edu packscholar #2	9	15	NULL
 3004002	edu packexporti #2	7	9	NULL
-4001001	importobrand #2	17	24	NULL
+3004002	edu packexporti #2	18	27	NULL
 4001001	exportiexporti #2	19	42	NULL
+4001001	importobrand #2	17	24	NULL
 4001001	maxiunivamalg #16	17	59	NULL
 4001001	importobrand #2	8	30	NULL
 4001002	amalgedu pack #2	19	29	NULL
-4002001	corpcorp #6	9	55	NULL
-4002001	corpbrand #8	19	47	NULL
 4002001	scholarmaxi #6	18	21	NULL
-4003001	edu packamalg #2	19	56	NULL
+4002001	corpbrand #8	19	47	NULL
+4002001	corpcorp #6	9	55	NULL
 4003001	edu packamalg #2	18	55	NULL
-4003001	importoamalgamalg #11	9	42	NULL
+4003001	edu packamalg #2	19	56	NULL
 4003001	importoedu pack #2	17	31	NULL
+4003001	importoamalgamalg #11	9	42	NULL
 4003002	exportiedu pack #2	9	15	NULL
 4003002	exportiedu pack #2	9	58	NULL
-4004001	exportiamalg #2	17	41	NULL
-4004001	maxinameless #8	19	51	NULL
 4004001	corpamalgamalg #8	18	56	NULL
-4004001	maxinameless #8	18	31	NULL
 4004001	maxinameless #8	19	52	NULL
+4004001	maxinameless #8	19	51	NULL
+4004001	maxinameless #8	18	31	NULL
+4004001	exportiamalg #2	17	41	NULL
 4004002	edu packedu pack #2	18	56	NULL
-5001001	amalgbrand #8	8	0	NULL
-5001001	exportinameless #8	17	19	NULL
 5001001	brandunivamalg #11	18	8	NULL
+5001001	exportinameless #8	17	19	NULL
 5001001	amalgscholar #2	9	35	NULL
-5002001	scholarunivamalg #1	18	39	NULL
-5002001	exportiimporto #2	9	16	NULL
+5001001	amalgbrand #8	8	0	NULL
 5002001	exportiamalg #2	19	14	NULL
 5002001	exportibrand #8	18	39	NULL
 5002001	exporticorp #2	8	10	NULL
+5002001	scholarunivamalg #1	18	39	NULL
 5002001	importocorp #4	18	17	NULL
+5002001	exportiimporto #2	9	16	NULL
 5003001	importoedu pack #2	8	29	NULL
-5003001	importoimporto #2	17	13	NULL
 5003001	exportiexporti #2	8	19	NULL
+5003001	importoimporto #2	17	13	NULL
 5003002	exportischolar #2	8	53	NULL
 5004001	amalgamalg #2	17	6	NULL
-6001002	amalgcorp #2	19	49	NULL
 6001002	amalgcorp #2	17	23	NULL
+6001002	amalgcorp #2	19	49	NULL
 6002004	importocorp #4	17	34	NULL
 6005001	importomaxi #6	9	6	NULL
-6005005	maxibrand #10	17	35	NULL
 6005005	maxibrand #10	9	50	NULL
+6005005	maxibrand #10	17	35	NULL
 6005005	edu packnameless #8	18	25	NULL
 6005005	edu packnameless #8	8	4	NULL
-6010004	univbrand #4	8	1	NULL
 6010004	univbrand #4	19	58	NULL
+6010004	univbrand #4	8	1	NULL
+6011003	importobrand #4	18	50	NULL
 6011003	importobrand #4	9	37	NULL
 6011003	importobrand #4	19	38	NULL
-6011003	importobrand #4	18	50	NULL
 6011008	amalgbrand #8	19	16	NULL
 6012002	importobrand #2	17	30	NULL
 6012004	importobrand #4	19	9	NULL
 6013002	exportibrand #2	18	28	NULL
 6014004	edu packbrand #4	17	43	NULL
 6014004	edu packbrand #4	19	32	NULL
-6015006	scholarbrand #6	17	18	NULL
 6015006	scholarbrand #6	9	27	NULL
-6015007	amalgimporto #2	19	47	NULL
+6015006	scholarbrand #6	17	18	NULL
 6015007	amalgimporto #2	19	5	NULL
+6015007	amalgimporto #2	19	47	NULL
 6015008	scholarbrand #8	8	53	NULL
-6016001	amalgexporti #2	9	8	NULL
 6016001	amalgexporti #2	19	50	NULL
 6016001	amalgamalg #2	17	54	NULL
+6016001	amalgexporti #2	9	8	NULL
 6016008	corpbrand #8	18	52	NULL
 7001001	exportiedu pack #2	18	59	NULL
 7002006	importobrand #6	18	1	NULL
-7003002	exportibrand #2	9	8	NULL
 7003002	exportibrand #2	18	18	NULL
+7003002	exportibrand #2	9	8	NULL
 7003005	exportiedu pack #2	9	12	NULL
 7004006	edu packbrand #6	18	33	NULL
 7004009	importoimporto #2	18	49	NULL
@@ -37166,27 +37150,27 @@ OK
 7009007	edu packimporto #2	19	5	NULL
 7009009	exportibrand #10	18	52	NULL
 7010004	univnameless #4	9	45	NULL
-7010007	edu packnameless #8	17	5	NULL
 7010007	edu packnameless #8	9	33	NULL
+7010007	edu packnameless #8	17	5	NULL
 7010008	univnameless #8	19	59	NULL
-7012001	scholarcorp #6	9	47	NULL
 7012001	scholarcorp #6	8	21	NULL
+7012001	scholarcorp #6	9	47	NULL
 7012006	importonameless #6	17	59	NULL
 7012007	exportischolar #2	9	46	NULL
 7012008	importonameless #8	19	46	NULL
-7012009	amalgamalg #2	17	21	NULL
 7012009	amalgamalg #2	18	38	NULL
+7012009	amalgamalg #2	17	21	NULL
 7012010	importonameless #10	9	31	NULL
 7012010	importonameless #10	9	33	NULL
 7015003	amalgexporti #2	17	22	NULL
 7016006	corpnameless #6	19	30	NULL
-8001007	amalgamalg #2	9	14	NULL
 8001007	amalgamalg #2	17	31	NULL
+8001007	amalgamalg #2	9	14	NULL
 8003002	exportinameless #2	19	59	NULL
 8003004	exportinameless #4	9	40	NULL
 8003010	exportinameless #10	9	58	NULL
-8004003	importoamalg #2	18	42	NULL
 8004003	importoamalg #2	17	10	NULL
+8004003	importoamalg #2	18	42	NULL
 8004007	edu packunivamalg #7	18	41	NULL
 8005001	univmaxi #2	19	49	NULL
 8005005	importonameless #6	18	37	NULL
@@ -37194,48 +37178,48 @@ OK
 8005008	scholarnameless #8	18	23	NULL
 8005008	scholarnameless #8	9	58	NULL
 8006001	edu packscholar #2	8	55	NULL
-8007008	brandnameless #8	9	10	NULL
 8007008	brandnameless #8	17	21	NULL
+8007008	brandnameless #8	9	10	NULL
 8008001	amalgnameless #2	9	14	NULL
 8008002	namelessnameless #2	17	31	NULL
 8009005	edu packnameless #6	9	18	NULL
 8010004	univmaxi #4	8	55	NULL
 8010007	corpbrand #4	19	8	NULL
-8012004	importomaxi #4	8	13	NULL
 8012004	importomaxi #4	17	57	NULL
+8012004	importomaxi #4	8	13	NULL
 8012005	corpmaxi #4	19	52	NULL
-8013007	amalgedu pack #2	18	31	NULL
 8013007	amalgedu pack #2	18	21	NULL
+8013007	amalgedu pack #2	18	31	NULL
 8015003	importoamalg #2	8	26	NULL
 8015003	importoamalg #2	19	14	NULL
 8016006	corpmaxi #6	19	1	NULL
 9004003	amalgmaxi #10	19	57	NULL
 9005003	edu packexporti #2	17	55	NULL
 9007005	maxinameless #10	7	25	NULL
-9007009	amalgscholar #2	9	9	NULL
 9007009	amalgscholar #2	17	6	NULL
+9007009	amalgscholar #2	9	9	NULL
 9007009	amalgscholar #2	17	32	NULL
 9007011	importoexporti #2	9	3	NULL
 9010003	exportiexporti #2	17	54	NULL
 9011008	amalgunivamalg #8	17	51	NULL
-9011008	amalgunivamalg #8	18	52	NULL
 9011008	amalgunivamalg #8	9	51	NULL
-9012008	importounivamalg #8	17	31	NULL
+9011008	amalgunivamalg #8	18	52	NULL
 9012008	importounivamalg #8	19	50	NULL
+9012008	importounivamalg #8	17	31	NULL
 9012011	importoamalg #2	9	21	NULL
 9013002	exportiunivamalg #2	8	12	NULL
-9013008	exportiunivamalg #8	19	28	NULL
 9013008	exportiunivamalg #8	9	54	NULL
+9013008	exportiunivamalg #8	19	28	NULL
 9014002	edu packunivamalg #2	17	50	NULL
 9014003	scholarunivamalg #9	17	15	NULL
 9014008	edu packunivamalg #8	19	1	NULL
 9014010	edu packunivamalg #10	17	32	NULL
 9015011	exportiamalg #2	17	31	NULL
-9016004	corpunivamalg #4	18	48	NULL
 9016004	corpunivamalg #4	9	25	NULL
+9016004	corpunivamalg #4	18	48	NULL
 10003006	exportiunivamalg #6	17	12	NULL
-10003011	exportiunivamalg #11	19	3	NULL
 10003011	exportiunivamalg #11	7	41	NULL
+10003011	exportiunivamalg #11	19	3	NULL
 10004005	importounivamalg #6	18	46	NULL
 10004008	edu packunivamalg #8	18	29	NULL
 10005008	exportiexporti #2	18	27	NULL
@@ -37247,17 +37231,17 @@ OK
 10010001	importoimporto #2	17	22	NULL
 10011009	amalgamalgamalg #9	17	15	NULL
 10012004	importoamalgamalg #4	19	48	NULL
-10013015	exportiamalgamalg #15	17	6	NULL
 10013015	exportiamalgamalg #15	19	1	NULL
+10013015	exportiamalgamalg #15	17	6	NULL
 10014001	maxibrand #4	8	38	NULL
 10014014	edu packamalgamalg #14	19	47	NULL
 10014014	edu packamalgamalg #14	17	49	NULL
 10015013	scholaramalgamalg #13	18	39	NULL
 10016003	corpamalgamalg #3	18	21	NULL
 10016013	corpamalgamalg #13	18	36	NULL
-10016016	corpamalgamalg #16	8	44	NULL
-10016016	corpamalgamalg #16	18	24	NULL
 10016016	corpamalgamalg #16	9	25	NULL
-Time taken: 411.477 seconds, Fetched: 36951 row(s)
-End: 1475383771
-Total Execution Time: 426
+10016016	corpamalgamalg #16	18	24	NULL
+10016016	corpamalgamalg #16	8	44	NULL
+Time taken: 342.272 seconds, Fetched: 36951 row(s)
+End: 1475388890
+Total Execution Time: 351

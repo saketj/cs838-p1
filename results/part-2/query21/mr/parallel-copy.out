@@ -1,0 +1,166 @@
+Launching Job 6 out of 9
+Number of reduce tasks not specified. Defaulting to jobconf value of: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0010, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0010/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0010
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2016-10-01 17:38:25,775 Stage-4 map = 0%,  reduce = 0%
+2016-10-01 17:38:31,969 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 3.02 sec
+2016-10-01 17:38:39,213 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 6.56 sec
+MapReduce Total cumulative CPU time: 6 seconds 560 msec
+Ended Job = job_1475341600217_0010
+Launching Job 7 out of 9
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0011, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0011/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0011
+Hadoop job information for Stage-5: number of mappers: 1; number of reducers: 1
+2016-10-01 17:38:45,980 Stage-5 map = 0%,  reduce = 0%
+2016-10-01 17:38:52,201 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.19 sec
+2016-10-01 17:38:58,407 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 3.8 sec
+MapReduce Total cumulative CPU time: 3 seconds 800 msec
+Ended Job = job_1475341600217_0011
+MapReduce Jobs Launched:
+Stage-Stage-15: Map: 5   Cumulative CPU: 250.52 sec   HDFS Read: 1164950191 HDFS Write: 2535951899 SUCCESS
+Stage-Stage-12: Map: 10   Cumulative CPU: 157.08 sec   HDFS Read: 2536061834 HDFS Write: 246864664 SUCCESS
+Stage-Stage-9: Map: 3   Cumulative CPU: 22.18 sec   HDFS Read: 246905418 HDFS Write: 1446217 SUCCESS
+Stage-Stage-4: Map: 1  Reduce: 1   Cumulative CPU: 6.56 sec   HDFS Read: 1454391 HDFS Write: 432344 SUCCESS
+Stage-Stage-5: Map: 1  Reduce: 1   Cumulative CPU: 3.8 sec   HDFS Read: 438339 HDFS Write: 2799 SUCCESS
+Total MapReduce CPU Time Spent: 7 minutes 20 seconds 140 msec
+OK
+
+
+
+
+Launching Job 6 out of 9
+Number of reduce tasks not specified. Defaulting to jobconf value of: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0015, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0015/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0015
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2016-10-01 17:42:34,768 Stage-4 map = 0%,  reduce = 0%
+2016-10-01 17:42:40,988 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 3.05 sec
+2016-10-01 17:42:48,207 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 6.57 sec
+MapReduce Total cumulative CPU time: 6 seconds 570 msec
+Ended Job = job_1475341600217_0015
+Launching Job 7 out of 9
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0016, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0016/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0016
+Hadoop job information for Stage-5: number of mappers: 1; number of reducers: 1
+2016-10-01 17:42:53,958 Stage-5 map = 0%,  reduce = 0%
+2016-10-01 17:43:00,161 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.27 sec
+2016-10-01 17:43:05,343 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 3.91 sec
+MapReduce Total cumulative CPU time: 3 seconds 910 msec
+Ended Job = job_1475341600217_0016
+MapReduce Jobs Launched:
+Stage-Stage-15: Map: 5   Cumulative CPU: 245.27 sec   HDFS Read: 1164950176 HDFS Write: 2535951899 SUCCESS
+Stage-Stage-12: Map: 10   Cumulative CPU: 160.17 sec   HDFS Read: 2536061771 HDFS Write: 246864664 SUCCESS
+Stage-Stage-9: Map: 4   Cumulative CPU: 23.33 sec   HDFS Read: 246918120 HDFS Write: 1431803 SUCCESS
+Stage-Stage-4: Map: 1  Reduce: 1   Cumulative CPU: 6.57 sec   HDFS Read: 1440228 HDFS Write: 432344 SUCCESS
+Stage-Stage-5: Map: 1  Reduce: 1   Cumulative CPU: 3.91 sec   HDFS Read: 438333 HDFS Write: 2799 SUCCESS
+Total MapReduce CPU Time Spent: 7 minutes 19 seconds 250 msec
+OK
+
+Launching Job 6 out of 9
+Number of reduce tasks not specified. Defaulting to jobconf value of: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0020, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0020/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0020
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2016-10-01 17:48:38,130 Stage-4 map = 0%,  reduce = 0%
+2016-10-01 17:48:44,321 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 3.11 sec
+2016-10-01 17:48:51,556 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 6.64 sec
+MapReduce Total cumulative CPU time: 6 seconds 640 msec
+Ended Job = job_1475341600217_0020
+Launching Job 7 out of 9
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0021, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0021/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0021
+Hadoop job information for Stage-5: number of mappers: 1; number of reducers: 1
+2016-10-01 17:48:57,272 Stage-5 map = 0%,  reduce = 0%
+2016-10-01 17:49:03,454 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.34 sec
+2016-10-01 17:49:09,615 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 3.96 sec
+MapReduce Total cumulative CPU time: 3 seconds 960 msec
+Ended Job = job_1475341600217_0021
+MapReduce Jobs Launched:
+Stage-Stage-15: Map: 5   Cumulative CPU: 236.0 sec   HDFS Read: 1164950191 HDFS Write: 2535951899 SUCCESS
+Stage-Stage-12: Map: 10   Cumulative CPU: 156.36 sec   HDFS Read: 2536061834 HDFS Write: 246864664 SUCCESS
+Stage-Stage-9: Map: 4   Cumulative CPU: 23.26 sec   HDFS Read: 246918146 HDFS Write: 1431803 SUCCESS
+Stage-Stage-4: Map: 1  Reduce: 1   Cumulative CPU: 6.64 sec   HDFS Read: 1440234 HDFS Write: 432344 SUCCESS
+Stage-Stage-5: Map: 1  Reduce: 1   Cumulative CPU: 3.96 sec   HDFS Read: 438339 HDFS Write: 2799 SUCCESS
+Total MapReduce CPU Time Spent: 7 minutes 6 seconds 220 msec
+OK
+
+Launching Job 6 out of 9
+Number of reduce tasks not specified. Defaulting to jobconf value of: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0025, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0025/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0025
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2016-10-01 17:57:15,966 Stage-4 map = 0%,  reduce = 0%
+2016-10-01 17:57:23,177 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 3.16 sec
+2016-10-01 17:57:29,347 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 6.61 sec
+MapReduce Total cumulative CPU time: 6 seconds 610 msec
+Ended Job = job_1475341600217_0025
+Launching Job 7 out of 9
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1475341600217_0026, Tracking URL = http://vm1:8088/proxy/application_1475341600217_0026/
+Kill Command = /home/ubuntu/software/hadoop-2.6.0/bin/hadoop job  -kill job_1475341600217_0026
+Hadoop job information for Stage-5: number of mappers: 1; number of reducers: 1
+2016-10-01 17:57:36,094 Stage-5 map = 0%,  reduce = 0%
+2016-10-01 17:57:42,291 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 2.4 sec
+2016-10-01 17:57:48,472 Stage-5 map = 100%,  reduce = 100%, Cumulative CPU 4.06 sec
+MapReduce Total cumulative CPU time: 4 seconds 60 msec
+Ended Job = job_1475341600217_0026
+MapReduce Jobs Launched:
+Stage-Stage-15: Map: 5   Cumulative CPU: 243.32 sec   HDFS Read: 1164950191 HDFS Write: 2535951899 SUCCESS
+Stage-Stage-12: Map: 10   Cumulative CPU: 155.98 sec   HDFS Read: 2536061834 HDFS Write: 246864684 SUCCESS
+Stage-Stage-9: Map: 3   Cumulative CPU: 21.06 sec   HDFS Read: 246905438 HDFS Write: 1431707 SUCCESS
+Stage-Stage-4: Map: 1  Reduce: 1   Cumulative CPU: 6.61 sec   HDFS Read: 1439881 HDFS Write: 432344 SUCCESS
+Stage-Stage-5: Map: 1  Reduce: 1   Cumulative CPU: 4.06 sec   HDFS Read: 438339 HDFS Write: 2799 SUCCESS
+Total MapReduce CPU Time Spent: 7 minutes 11 seconds 30 msec
+OK
